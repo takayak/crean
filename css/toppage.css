@@ -4,14 +4,13 @@ h1 {
   padding: 20px;
 }
 
-body {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
+header {
+  height: 80px;
+  background-color: #f7f7fd;
 }
 
-header {
-  height: 100px;
-  background-color: #f7f7fd;
+header nav {
+  padding-top: 10px;
 }
 
 header ul {
@@ -83,8 +82,8 @@ header ul li {
   opacity: 0;
   -webkit-transform: translate(100px, 0);
           transform: translate(100px, 0);
-  -webkit-transition: all 2000ms;
-  transition: all 2000ms;
+  -webkit-transition: all 1500ms;
+  transition: all 1500ms;
 }
 
 .effect-fade.effect-scroll {
