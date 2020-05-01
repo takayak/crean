@@ -5,8 +5,16 @@ h1 {
 }
 
 header {
-  height: 80px;
-  background-color: #f7f7fd;
+  height: 100px;
+  background-color: #e6e6ee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .logo {
+  width: 200px;
+  height: 100px;
 }
 
 header nav {
@@ -198,6 +206,74 @@ header ul li {
   border-left: 15px solid #77c6e6;
 }
 
+.section2-2 {
+  height: 80vh;
+  background-color: #fafaed;
+  text-align: center;
+}
+
+.section2-2 .flows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section2-2 .flows .flow {
+  color: whitesmoke;
+  height: 360px;
+  width: 280px;
+  background-color: #77c6e6;
+  margin-right: 20px;
+  border-radius: 6px;
+  position: relative;
+  -webkit-box-shadow: 1px 206;
+          box-shadow: 1px 206;
+  text-align: center;
+}
+
+.section2-2 .flows .flow .num {
+  font-size: 40px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+  margin: 10px 0 10px;
+}
+
+.section2-2 .flows .flow h2 {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.section2-2 .flows .flow p {
+  font-size: 14px;
+  padding: 4px;
+  margin: 0;
+}
+
+.section2-2 .flows .flow img {
+  border-radius: 10px;
+  height: 170px;
+  width: 200px;
+}
+
+.section2-2 .flows .flow .col-white {
+  display: inline;
+  color: whitesmoke;
+}
+
+.section2-2 .flows .flow:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 15px solid #77c6e6;
+}
+
 .section3 {
   height: 80vh;
   background-color: lightblue;
@@ -217,14 +293,64 @@ header ul li {
 }
 
 .section5 {
-  height: 65vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: lightblue;
   text-align: center;
+  padding: 16px;
+}
+
+.section5 table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.section5 table th:first-child {
+  border-radius: 5px 0 0 0;
+}
+
+.section5 table th:last-child {
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #3c6690;
+}
+
+.section5 table th {
+  text-align: center;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#829ebc), to(#225588));
+  background: linear-gradient(#829ebc, #225588);
+  border-left: 1px solid #3c6690;
+  border-top: 1px solid #3c6690;
+  border-bottom: 1px solid #3c6690;
+  -webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3) inset;
+          box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3) inset;
+  width: 25%;
+  padding: 10px 0;
+}
+
+.section5 table td {
+  text-align: center;
+  border-left: 1px solid #a8b7c5;
+  border-bottom: 1px solid #a8b7c5;
+  border-top: none;
+  -webkit-box-shadow: 0px -3px 5px 1px #eee inset;
+          box-shadow: 0px -3px 5px 1px #eee inset;
+  width: 25%;
+  padding: 10px 0;
+}
+
+.section5 table td:last-child {
+  border-right: 1px solid #a8b7c5;
+}
+
+.section5 table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
 }
 
 .section6 {
   height: 65vh;
   background-color: #fafaed;
-  text-align: center;
 }
 /*# sourceMappingURL=toppage.css.map */
