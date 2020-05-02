@@ -101,24 +101,6 @@ header ul li {
           transform: translate(0, 0);
 }
 
-.main-img {
-  text-align: center;
-  background-image: url(../img/test1.jpg);
-  background-position: center;
-  height: 500px;
-  background-size: contain;
-  width: auto;
-  background-repeat: no-repeat;
-}
-
-.main-img .title {
-  font-size: 50px;
-  margin: 0;
-  color: #f0f2f5;
-  line-height: 400px;
-  text-shadow: 2px 2px 2px #2e2e2e;
-}
-
 .section1 {
   height: 80vh;
   background-color: #d1f0fa;
@@ -209,7 +191,7 @@ header ul li {
 
 .section2-2 {
   height: 80vh;
-  background-color: #fafaed;
+  background-color: white;
   text-align: center;
 }
 
