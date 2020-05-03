@@ -186,7 +186,7 @@ transform : translate(0, 0);
 
 
 .section1{
-  height: 80vh;
+  height: 100vh;
   background-color: rgb(255, 255, 255);
   background-image: url(../img/crean6.jpg);
   text-align: center;
@@ -237,112 +237,31 @@ transform : translate(0, 0);
   }
 }
 .section2{
-  height: 80vh;
+  height: fit-content;
   background-color: rgb(231, 231, 231);
   text-align: center;
+  padding: 100px;
   .flows{
-    display: flex;
-    justify-content: center;
-    
+    width: 60%;
+    margin: 0 auto;
     .flow{
-      color: whitesmoke;
-      height: 280px;
-      width: 150px;
-      background-color: rgb(119, 198, 230);
-      margin-right: 20px;
-      border-radius: 6px;
-      position: relative;
-      box-shadow: 1px blue($color: #b8c8ce);
-      text-align: center;
-      .num{
-        font-size: 40px;
-        font-weight: bold;
-        color: whitesmoke;
-        text-align: center;
-        margin: 10px 0 10px;
-      }
-      h2{
-        margin: 0;
-        margin-top: 10px;
-      }
-      p{
-        font-size: 14px;
+      border: solid 1px black;
+      padding-bottom: 40px;
+      .flow-title{
+        border-bottom: solid 1px black;
         padding: 4px;
-        margin: 0;
       }
-      .col-white{
-        display: inline;
-        color: whitesmoke;
+      .title-span{
+        background-color: rgb(69, 15, 194);
+        color: white;
+        font-weight: bold;
+        padding: 2px;
+        float: left;
       }
     }
-    .flow:before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 100%;
-      margin-top: -15px;
-      border: 15px solid transparent;
-      border-left: 15px solid rgb(119, 198, 230);
-    }
-    
   }
 }
-.section2-2{
-  height: 80vh;
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  .flows{
-    display: flex;
-    justify-content: center;
-    
-    .flow{
-      color: whitesmoke;
-      height: 360px;
-      width: 280px;
-      background-color: rgb(119, 198, 230);
-      margin-right: 20px;
-      border-radius: 6px;
-      position: relative;
-      box-shadow: 1px blue($color: #b8c8ce);
-      text-align: center;
-      .num{
-        font-size: 40px;
-        font-weight: bold;
-        color: whitesmoke;
-        text-align: center;
-        margin: 10px 0 10px;
-      }
-      h2{
-        margin: 0;
-        margin-top: 10px;
-      }
-      p{
-        font-size: 14px;
-        padding: 4px;
-        margin: 0;
-      }
-      img{
-        border-radius:10px ;
-        height: 170px;
-        width: 200px;
-      }
-      .col-white{
-        display: inline;
-        color: whitesmoke;
-      }
-    }
-    .flow:before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 100%;
-      margin-top: -15px;
-      border: 15px solid transparent;
-      border-left: 15px solid rgb(119, 198, 230);
-    }
-    
-  }
-}
+
 .section3{
   height: 80vh;
   background-color: lightblue;
