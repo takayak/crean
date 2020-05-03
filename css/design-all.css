@@ -100,10 +100,10 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	content: 'b';
+	content: 'A';
 	display: inline-block;
 	width: 2em;
-	height: 2em;
+  height: 2em;
 	-webkit-transition: transform 0.4s;
 	        transition: transform 0.4s;
 }
@@ -132,7 +132,8 @@
 /* --答えの高さ */
 .cp_qa .cp_actab input:checked ~ .cp_actab-content {
 	max-height: 40em;
-	border: 10px solid rgba(27,37,56,0.1);
+  border: 10px solid rgba(27,37,56,0.1);
+  
 }
 /* 質問をクリックした時のアイコンの動き */
 .cp_qa .cp_actab input:checked ~ label {
@@ -144,7 +145,7 @@
 	-webkit-transform: rotateZ(45deg);
 	transform: rotateZ(45deg);
 	-webkit-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
 }
 
 
@@ -197,4 +198,61 @@
   margin: 0;
   padding: 0;
   text-align: left;
+}
+
+
+
+/* 見出しデザイン */
+.midasi1 {
+  position: relative;
+  line-height: 1.4;
+  padding:0.25em 1em;
+  display: inline-block;
+  top:0;
+}
+
+.midasi1:before, .midasi1:after { 
+  position: absolute;
+  top: 0;
+  content:'';
+  width: 8px;
+  height: 100%;
+  display: inline-block;
+}
+.midasi1:before {
+  border-left: solid 1px black;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  left: 0;
+}
+.midasi1:after {
+  content: '';
+  border-top: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+  right: 0;
+}
+
+/* 見出しデザイン２ */
+.midasi2 {
+  position: relative;
+  display: inline-block;
+  padding: 0 55px;
+}
+
+.midasi2:before, .midasi2:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: black;
+}
+
+.midasi2:before {
+  left:0;
+}
+.midasi2:after {
+  right: 0;
 }
