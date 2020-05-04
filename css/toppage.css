@@ -70,6 +70,7 @@ header ul li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 0.3rem;
 }
 
 .snip1211 * {
@@ -316,6 +317,11 @@ header ul li {
   right: 0.7rem;
 }
 
+.reason-box2 {
+  border: solid 2px black;
+  border-radius: 1rem;
+}
+
 .section2 {
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -379,7 +385,7 @@ header ul li {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #F7F7F7;
+  background-color: white;
   text-align: center;
   width: 100%;
 }
@@ -475,16 +481,38 @@ header ul li {
 }
 
 .section4 .formation .right-text {
-  padding: 20px;
-  height: 450px;
+  padding-top: 8rem;
+  padding-left: rem;
+  height: 45rem;
   border: solid 1px black;
-  margin-left: 20px;
+  margin-left: 2rem;
   width: 40%;
+}
+
+.section4 .formation .right-text ul {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.section4 .formation .right-text li {
+  text-align: left;
+}
+
+.section4 .formation .right-text p {
+  border: solid 1px gray;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  background-color: #707ab3;
+  color: white;
+  border-radius: 0.3rem;
+  font-weight: bold;
 }
 
 .section4 .drug {
   margin: 0 auto;
   width: 65%;
+  padding-bottom: 20rem;
 }
 
 .section4 .drug table {
@@ -496,7 +524,7 @@ header ul li {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: white;
+  background-color: #ececec;
   text-align: center;
   padding: 16px;
 }
@@ -521,9 +549,9 @@ header ul li {
   color: white;
   background: -webkit-gradient(linear, left top, left bottom, from(#829ebc), to(#225588));
   background: linear-gradient(#829ebc, #225588);
-  border-left: 1px solid #3c6690;
-  border-top: 1px solid #3c6690;
-  border-bottom: 1px solid #3c6690;
+  border-left: 1px solid #4f79a3;
+  border-top: 1px solid #5183b4;
+  border-bottom: 1px solid #4c80b4;
   -webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3) inset;
           box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3) inset;
   width: 25%;
@@ -553,7 +581,7 @@ header ul li {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #F7F7F7;
+  background-color: white;
   padding: 7%;
 }
 
@@ -570,5 +598,54 @@ header ul li {
 
 .form-call .midasi2 {
   margin: 5%;
+}
+
+footer {
+  height: 15rem;
+  background-color: #4f82c9;
+  color: white;
+}
+
+footer .content {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+}
+
+footer .content .left p {
+  padding: 0;
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+footer .content .right {
+  margin-left: 10rem;
+}
+
+footer .content .right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .content .right ul a {
+  text-decoration: none;
+}
+
+footer .content .right ul li {
+  list-style: none;
+  color: white;
+  margin-right: 3rem;
+}
+
+footer .content .right ul li:hover {
+  color: #aaaaaa;
+}
+
+footer .bottom {
+  text-align: center;
 }
 /*# sourceMappingURL=toppage.css.map */
