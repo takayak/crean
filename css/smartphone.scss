@@ -1,0 +1,129 @@
+header{
+  background-size:cover;
+  .logo{
+    left: 10rem;
+    top: 1rem;
+    height: 5rem;
+    width: 14rem;
+  }
+  // ナビゲーション消す
+  nav{
+    display: none;
+  }
+}
+
+
+
+.main-view{
+  // width: 100%;
+  // height: 100vh;
+  // flex-flow: row-reverse;
+  display: inline;
+  
+  h2{
+    margin: 0;
+  }
+  &__text{
+    width: 100%;
+    height: 55vh;
+  background-color: #fff;
+  }
+  &__img{
+    width: 100%;
+    height: 100%;
+    padding: 7rem;
+    .main-text{
+      border-top:solid 1px white;
+      border-bottom: solid 1px white;
+    }
+    .phone-num{
+      background-color: #fff;
+      color: #00183a;
+      border-radius: 0.5rem;      
+
+    }
+  }
+}
+
+
+
+.section1{
+  height: fit-content;
+  background-image: url(../img/crean6.jpg);
+  color: rgb(0, 0, 0);
+  padding: 5%;
+  .midasi2{
+    margin: 5rem;
+  }
+  .reasons{
+    display: block;
+    .reason{
+      margin: 0 auto;
+      min-height: 25rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      width: 70%;
+      margin-bottom: 2rem;
+     
+      h4{
+        margin-bottom: 5rem;
+      }
+      p{
+        width: 70%;
+        margin:0 auto ;
+        margin-top: 8%;
+        // font-weight: bold;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+
+
+
+.section4{
+  height: fit-content;
+  background-color: #F7F7F7;
+  text-align: center;
+  width: 100%;
+  .reason-box{
+    width: 15%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  .midasi2{
+    padding: 100px;
+  }
+  .crean-flows{
+    .row4{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1%;
+    }
+    .crean-flow{
+      margin-right: 3rem;
+      width: fit-content;
+      // border: solid 1px black;
+      p{
+        margin: 0;
+        font-size: 1.2rem;
+      }
+      .title{
+        // border-bottom:solid 1px black ;
+        background-color:rgb(209, 209, 209);
+        color: white;
+        font-weight: bold;
+      }
+      img{
+        padding: 1.2rem;
+        border: solid 1px rgb(37, 37, 37);
+        width: 29rem;
+        height: 21rem;
+        margin-top: 0.5rem;
+      }
+      .text{
+        // border-top:solid 1px black ;
+        height: 7rem;
+      }
+    }
+  }

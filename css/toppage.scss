@@ -5,32 +5,55 @@ h1{
 body{
   font-family:'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
+
+//rem 62.5の設定 
+html {
+  /* ルートのフォントサイズを10pxに設定しておく */
+font-size: 62.5%;
+}
+body {
+/* ルートのフォントサイズを1.6em（16pxと同等のサイズ）に設定 */
+font-size: 1.6em;
+}
+// div h2{
+// /* 68px */
+// font-size: 6.8rem;
+// }
+// div a{
+// /* 38px */
+// font-size: 3.8rem;
+// }
+
+
 .container1{
   width: 100%;
   overflow: hidden;
 
 }
 header{
-  height: 80px;
-  background-color: rgba(35, 35, 187, 0.1);
+  // background-color: rgba(35, 35, 187, 0.1);
   background-size:cover;
-  display: flex;
-  position: fixed;
-  justify-content: right;
-  z-index: 2147483647;
   .logo{
     width: 250px;
     height: 75px;
-    float: left;
+    position: fixed;
+    left: 10%;
+    transform: translate(-50%, 0);
+    z-index: 2147483647;
   }
   nav{
     padding-top: 10px;
-    
+    // 中央揃え記述
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2147483647;
+    font-weight: bold;
   }
   ul{
     margin:0;
     li{
-      margin-right: 5px;
+      margin-right: 1rem;
       color: rgb(26, 26, 26);
     }
   }
@@ -41,9 +64,9 @@ header{
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 1px;
+  // letter-spacing: 1px;
   border: solid 1px black;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.911);
   display: flex;
   justify-content: center;
 }
@@ -57,9 +80,10 @@ header{
 .snip1211 li {
   display: inline-block;
   list-style: outside none none;
-  margin: 0.5em 1.5em;
+  // margin: 0.5em 1.5em;
+  margin: 0.3em 1em;
   padding: 0;
-
+  
 }
 .snip1211 a {
   padding: 0.4em 0;
@@ -101,7 +125,7 @@ header{
 
 .effect-fade {
   opacity : 0;
-  transform : translate(100px,0);
+  transform : translate(0,100px);
   transition : all 1500ms;
   }
   
@@ -114,6 +138,10 @@ transform : translate(0, 0);
   width: 100%;
   height: 100vh;
   display: flex;
+  h2{
+    margin: 0;
+  }
+  
   &__text{
     width: 45%;
     height: 100%;
@@ -123,13 +151,15 @@ transform : translate(0, 0);
     display: flex;
     justify-content: center; /*左右中央揃え*/
     align-items: center;     /*上下中央揃え*/
-    background-color: #00183a;
+    // background-color: #00183a;
+    // background-color: #4072b8;
+    background-color: #4f82c9;
     width: 55%;
     height: 100%;
     color: white;
     text-align: center;
     font-family:'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-    padding: 20px;
+    padding: 2rem;
     .main-text{
       border-top:solid 1px white;
       border-bottom: solid 1px white;
@@ -137,7 +167,7 @@ transform : translate(0, 0);
     .phone-num{
       background-color: #fff;
       color: #00183a;
-      border-radius: 5px;      
+      border-radius: 0.5rem;      
 
     }
 
@@ -149,8 +179,8 @@ transform : translate(0, 0);
     }
     .box19:before,.box19:after{ 
         content:'';
-        width: 20px;
-        height: 30px;
+        width: 2rem;
+        height: 3rem;
         position: absolute;
         display: inline-block;
     }
@@ -170,13 +200,37 @@ transform : translate(0, 0);
         margin: 0; 
         padding: 0;
     }
-    // boxデザイン
-
+    // boxデザインここまで
+    .btn-flat-border{
+      color: white;
+      border: solid 2px #ffffff;
+    }
 
   }
 }
+// ボタンデザイン
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.btn-flat-border:hover {
+  background: #67c5ff;
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+
 .message{
   background-color: rgb(19, 67, 223);
+  // background-color: rgb(85, 117, 223);
   color: rgb(252, 240, 240);
   font-weight: bold;
   text-align: center;
@@ -185,6 +239,8 @@ transform : translate(0, 0);
     margin: 0;
   }
 }
+
+
 
 
 
@@ -199,19 +255,23 @@ transform : translate(0, 0);
     display: flex;
     justify-content: center;
     .reason{
-      margin-top: 80px;
-      height: 250px;
-      margin-right: 10px;
+      margin-top: 8rem;
+      min-height: 25rem;
+      height: fit-content;
+      margin-right: 1rem;
       background-color: rgba(255, 255, 255, 0.1);
       width: 30%;
       h4{
         margin-top: 5%;
+        font-size: 1.8rem;
+        font-weight: bold;
       }
       p{
         width: 70%;
         margin:0 auto ;
         margin-top: 8%;
-        font-weight: bold;
+        // font-weight: bold;
+        font-size: 1.4rem;
       }
     }
   }
@@ -234,11 +294,12 @@ transform : translate(0, 0);
   background-color: black;
 }
 .reason-box:before {
-  left: 7px;
+  left: 0.7rem;
 }
 .reason-box:after {
-  right: 7px;
+  right: 0.7rem;
 }
+
 
 
 
@@ -246,23 +307,25 @@ transform : translate(0, 0);
   height: fit-content;
   background-color: rgb(255, 255, 255);
   text-align: center;
-  padding: 100px;
+  padding: 10rem;
   .flows{
     width: 60%;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 10rem;
     .flow{
       border: solid 1px black;
-      padding-bottom: 40px;
+      padding-bottom: 4rem;
       .flow-title{
         border-bottom: solid 1px black;
+        padding: 0.2rem;
       }
       .title-span{
-        background-color: rgb(69, 15, 194);
+        background-color: rgb(112, 82, 182);
         color: white;
         font-weight: bold;
-        padding: 2px;
+        padding: 1px;
         float: left;
+        line-height: 2.4rem;
       }
       .flow-text{
         width: 85%;
@@ -277,9 +340,10 @@ transform : translate(0, 0);
 
 
 .section3{
-  height: 80vh;
-  background-color: rgb(255, 255, 255);
+  height: fit-content;
+  background-color: rgb(241, 241, 241);
   text-align: center;
+  padding: 10rem;
   .midasi2{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -300,41 +364,58 @@ transform : translate(0, 0);
   background-color: #F7F7F7;
   text-align: center;
   width: 100%;
+  .reason-box{
+    width: 15%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
   .midasi2{
     padding: 100px;
   }
-  img{
-    width: 240px;
-    height: 200px;
-  }
   .crean-flows{
-    display: flex;
-    justify-content: center;
+    .row4{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1%;
+      
+    }
     .crean-flow{
-      margin-right: 30px;
+      margin-right: 3rem;
       width: fit-content;
-      border: solid 1px black;
+      // border: solid 1px black;
       p{
         margin: 0;
-        font-size: 12px;
+        font-size: 1.2rem;
       }
       .title{
-        border-bottom:solid 1px black ;
+        // border-bottom:solid 1px black ;
         background-color:rgb(209, 209, 209);
         color: white;
         font-weight: bold;
       }
+      img{
+        padding: 1.2rem;
+        border: solid 1px rgb(37, 37, 37);
+        width: 29rem;
+        height: 21rem;
+        margin-top: 0.5rem;
+      }
       .text{
-        border-top:solid 1px black ;
+        // border-top:solid 1px black ;
+        height: 7rem;
       }
     }
   }
   .point2{
     width: 60%;
     margin: 0 auto;
+    font-size: 3rem;
     p{
      margin: 0;
     }
+  }
+  .midasi2{
+    font-size: 3rem;
   }
   .formation{
     margin: 0 auto;
@@ -343,13 +424,13 @@ transform : translate(0, 0);
     margin-top:100px;
     margin-bottom: 100px;
     display: flex;
+    justify-content: center;
     .left-img{
       border: solid 1px black;
-      height: 100%;
-      height: 450px;
+      width: 40%;
       img{
-        width: 400px;
-        height: 400px;
+        width: 90%;
+        height: 90%;
       }
     }
     .right-text{
@@ -357,6 +438,7 @@ transform : translate(0, 0);
       height: 450px;
       border: solid 1px black;
       margin-left: 20px;
+      width: 40%;
 
     }
   }
@@ -424,7 +506,15 @@ transform : translate(0, 0);
 .section6{
   height: fit-content;
   background-color:  #F7F7F7;
+  padding: 7%;
+  .title{
+    text-align: center;
+  }
 }
 .form-call{
   text-align: center;
+  height: fit-content;
+  .midasi2{
+    margin: 5%;
+  }
 }

@@ -9,33 +9,43 @@ body {
   font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
+html {
+  /* ルートのフォントサイズを10pxに設定しておく */
+  font-size: 62.5%;
+}
+
+body {
+  /* ルートのフォントサイズを1.6em（16pxと同等のサイズ）に設定 */
+  font-size: 1.6em;
+}
+
 .container1 {
   width: 100%;
   overflow: hidden;
 }
 
 header {
-  height: 80px;
-  background-color: rgba(35, 35, 187, 0.1);
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: fixed;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  z-index: 2147483647;
 }
 
 header .logo {
   width: 250px;
   height: 75px;
-  float: left;
+  position: fixed;
+  left: 10%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 2147483647;
 }
 
 header nav {
   padding-top: 10px;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 2147483647;
+  font-weight: bold;
 }
 
 header ul {
@@ -43,7 +53,7 @@ header ul {
 }
 
 header ul li {
-  margin-right: 5px;
+  margin-right: 1rem;
   color: #1a1a1a;
 }
 
@@ -52,9 +62,8 @@ header ul li {
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 1px;
   border: solid 1px black;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.911);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,7 +80,7 @@ header ul li {
 .snip1211 li {
   display: inline-block;
   list-style: outside none none;
-  margin: 0.5em 1.5em;
+  margin: 0.3em 1em;
   padding: 0;
 }
 
@@ -112,8 +121,8 @@ header ul li {
 /* Demo purposes only */
 .effect-fade {
   opacity: 0;
-  -webkit-transform: translate(100px, 0);
-          transform: translate(100px, 0);
+  -webkit-transform: translate(0, 100px);
+          transform: translate(0, 100px);
   -webkit-transition: all 1500ms;
   transition: all 1500ms;
 }
@@ -130,6 +139,10 @@ header ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.main-view h2 {
+  margin: 0;
 }
 
 .main-view__text {
@@ -150,13 +163,13 @@ header ul li {
       -ms-flex-align: center;
           align-items: center;
   /*上下中央揃え*/
-  background-color: #00183a;
+  background-color: #4f82c9;
   width: 55%;
   height: 100%;
   color: white;
   text-align: center;
   font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-  padding: 20px;
+  padding: 2rem;
 }
 
 .main-view__img .main-text {
@@ -167,7 +180,7 @@ header ul li {
 .main-view__img .phone-num {
   background-color: #fff;
   color: #00183a;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .main-view__img .box19 {
@@ -178,8 +191,8 @@ header ul li {
 
 .main-view__img .box19:before, .main-view__img .box19:after {
   content: '';
-  width: 20px;
-  height: 30px;
+  width: 2rem;
+  height: 3rem;
   position: absolute;
   display: inline-block;
 }
@@ -201,6 +214,28 @@ header ul li {
 .main-view__img .box19 p {
   margin: 0;
   padding: 0;
+}
+
+.main-view__img .btn-flat-border {
+  color: white;
+  border: solid 2px #ffffff;
+}
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.btn-flat-border:hover {
+  background: #67c5ff;
+  color: white;
+  text-decoration: none;
 }
 
 .message {
@@ -234,22 +269,27 @@ header ul li {
 }
 
 .section1 .reasons .reason {
-  margin-top: 80px;
-  height: 250px;
-  margin-right: 10px;
+  margin-top: 8rem;
+  min-height: 25rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-right: 1rem;
   background-color: rgba(255, 255, 255, 0.1);
   width: 30%;
 }
 
 .section1 .reasons .reason h4 {
   margin-top: 5%;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .section1 .reasons .reason p {
   width: 70%;
   margin: 0 auto;
   margin-top: 8%;
-  font-weight: bold;
+  font-size: 1.4rem;
 }
 
 .reason-box {
@@ -269,11 +309,11 @@ header ul li {
 }
 
 .reason-box:before {
-  left: 7px;
+  left: 0.7rem;
 }
 
 .reason-box:after {
-  right: 7px;
+  right: 0.7rem;
 }
 
 .section2 {
@@ -282,30 +322,32 @@ header ul li {
   height: fit-content;
   background-color: white;
   text-align: center;
-  padding: 100px;
+  padding: 10rem;
 }
 
 .section2 .flows {
   width: 60%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 10rem;
 }
 
 .section2 .flows .flow {
   border: solid 1px black;
-  padding-bottom: 40px;
+  padding-bottom: 4rem;
 }
 
 .section2 .flows .flow .flow-title {
   border-bottom: solid 1px black;
+  padding: 0.2rem;
 }
 
 .section2 .flows .flow .title-span {
-  background-color: #450fc2;
+  background-color: #7052b6;
   color: white;
   font-weight: bold;
-  padding: 2px;
+  padding: 1px;
   float: left;
+  line-height: 2.4rem;
 }
 
 .section2 .flows .flow .flow-text {
@@ -315,9 +357,12 @@ header ul li {
 }
 
 .section3 {
-  height: 80vh;
-  background-color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #f1f1f1;
   text-align: center;
+  padding: 10rem;
 }
 
 .section3 .midasi2 {
@@ -339,55 +384,68 @@ header ul li {
   width: 100%;
 }
 
+.section4 .reason-box {
+  width: 15%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
 .section4 .midasi2 {
   padding: 100px;
 }
 
-.section4 img {
-  width: 240px;
-  height: 200px;
-}
-
-.section4 .crean-flows {
+.section4 .crean-flows .row4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 1%;
 }
 
 .section4 .crean-flows .crean-flow {
-  margin-right: 30px;
+  margin-right: 3rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  border: solid 1px black;
 }
 
 .section4 .crean-flows .crean-flow p {
   margin: 0;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .section4 .crean-flows .crean-flow .title {
-  border-bottom: solid 1px black;
   background-color: #d1d1d1;
   color: white;
   font-weight: bold;
 }
 
+.section4 .crean-flows .crean-flow img {
+  padding: 1.2rem;
+  border: solid 1px #252525;
+  width: 29rem;
+  height: 21rem;
+  margin-top: 0.5rem;
+}
+
 .section4 .crean-flows .crean-flow .text {
-  border-top: solid 1px black;
+  height: 7rem;
 }
 
 .section4 .point2 {
   width: 60%;
   margin: 0 auto;
+  font-size: 3rem;
 }
 
 .section4 .point2 p {
   margin: 0;
+}
+
+.section4 .midasi2 {
+  font-size: 3rem;
 }
 
 .section4 .formation {
@@ -401,17 +459,19 @@ header ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .section4 .formation .left-img {
   border: solid 1px black;
-  height: 100%;
-  height: 450px;
+  width: 40%;
 }
 
 .section4 .formation .left-img img {
-  width: 400px;
-  height: 400px;
+  width: 90%;
+  height: 90%;
 }
 
 .section4 .formation .right-text {
@@ -419,6 +479,7 @@ header ul li {
   height: 450px;
   border: solid 1px black;
   margin-left: 20px;
+  width: 40%;
 }
 
 .section4 .drug {
@@ -493,9 +554,21 @@ header ul li {
   height: -moz-fit-content;
   height: fit-content;
   background-color: #F7F7F7;
+  padding: 7%;
+}
+
+.section6 .title {
+  text-align: center;
 }
 
 .form-call {
   text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.form-call .midasi2 {
+  margin: 5%;
 }
 /*# sourceMappingURL=toppage.css.map */
