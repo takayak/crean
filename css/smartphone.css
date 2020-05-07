@@ -23,7 +23,7 @@ header nav {
 
 .main-view__text {
   width: 100%;
-  height: 55vh;
+  height: 100vh;
   background-color: #fff;
 }
 
@@ -74,9 +74,211 @@ header nav {
 }
 
 .section1 .reasons .reason p {
+  margin-top: 0;
+}
+
+.section2 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+  text-align: center;
+  padding: 10rem;
+}
+
+.section2 .flows {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+
+.section2 .flows .flow {
+  border: solid 1px black;
+  padding-bottom: 4rem;
+}
+
+.section2 .flows .flow .flow-title {
+  border-bottom: solid 1px black;
+  padding: 0.2rem;
+}
+
+.section2 .flows .flow .title-span {
+  background-color: #7052b6;
+  color: white;
+  font-weight: bold;
+  padding: 1px;
+  float: left;
+  line-height: 2.4rem;
+}
+
+.section2 .flows .flow .flow-text {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.section3 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10rem;
+}
+
+.section3 .midasi2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section3 .point {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section3 img {
+  width: 80%;
+  height: 60%;
+}
+
+.section4 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.section4 .reason-box {
+  width: 25%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.section4 .midasi2 {
+  padding: 100px;
+}
+
+.section4 .crean-flows .row4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1%;
+}
+
+.section4 .crean-flows .crean-flow {
+  width: 40%;
+  height: 80%;
+}
+
+.section4 .crean-flows .crean-flow p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.section4 .crean-flows .crean-flow .title {
+  background-color: #d1d1d1;
+  color: white;
+  font-weight: bold;
   width: 70%;
   margin: 0 auto;
-  margin-top: 8%;
-  font-size: 1.4rem;
+}
+
+.section4 .crean-flows .crean-flow img {
+  padding: 1.2rem;
+  border: solid 1px #252525;
+  width: 70%;
+  height: 70%;
+  margin-top: 0.5rem;
+}
+
+.section4 .crean-flows .crean-flow .text {
+  height: 7rem;
+}
+
+.section4 .point2 {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.section4 .point2 p {
+  margin: 0;
+}
+
+.section4 .midasi2 {
+  font-size: 1.5rem;
+}
+
+.section4 .formation {
+  margin: 0 auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 85%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section4 .formation .left-img {
+  border: solid 1px black;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section4 .formation .left-img img {
+  width: 90%;
+  height: 90%;
+}
+
+.section4 .formation .right-text {
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-left: rem;
+  height: 45rem;
+  border: solid 1px black;
+  width: 80%;
+  margin-top: 4rem;
+}
+
+.section4 .formation .right-text ul {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.section4 .formation .right-text li {
+  text-align: left;
+}
+
+.section4 .formation .right-text p {
+  border: solid 1px gray;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  background-color: #707ab3;
+  color: white;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+.section4 .drug {
+  margin: 0 auto;
+  width: 85%;
+  padding-bottom: 20rem;
+}
+
+.section4 .drug table {
+  margin: 0 auto;
+  width: 80%;
 }
 /*# sourceMappingURL=smartphone.css.map */

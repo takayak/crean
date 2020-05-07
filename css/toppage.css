@@ -46,6 +46,7 @@ header nav {
           transform: translate(-50%, 0);
   z-index: 2147483647;
   font-weight: bold;
+  width: 55%;
 }
 
 header ul {
@@ -150,6 +151,11 @@ header ul li {
   width: 45%;
   height: 100%;
   background-color: #fff;
+}
+
+.main-view__text .img {
+  height: 100%;
+  width: 100%;
 }
 
 .main-view__img {
@@ -376,9 +382,14 @@ header ul li {
   margin-bottom: 50px;
 }
 
+.section3 .point {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .section3 img {
-  width: 600px;
-  height: 350px;
+  width: 80%;
+  height: 60%;
 }
 
 .section4 {
@@ -404,6 +415,8 @@ header ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -411,10 +424,8 @@ header ul li {
 }
 
 .section4 .crean-flows .crean-flow {
-  margin-right: 3rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 30%;
+  height: 80%;
 }
 
 .section4 .crean-flows .crean-flow p {
@@ -426,13 +437,15 @@ header ul li {
   background-color: #d1d1d1;
   color: white;
   font-weight: bold;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .section4 .crean-flows .crean-flow img {
   padding: 1.2rem;
   border: solid 1px #252525;
-  width: 29rem;
-  height: 21rem;
+  width: 70%;
+  height: 70%;
   margin-top: 0.5rem;
 }
 
