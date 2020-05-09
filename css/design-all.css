@@ -1,3 +1,6 @@
+
+
+
 /* 見出しデザイン */
 .point {
   position: relative;
@@ -23,6 +26,8 @@
   line-height: 1;
   letter-spacing: 0.05em;
 }
+
+
 
 /* 見出しデザイン*/
 .point2 {
@@ -68,6 +73,7 @@
 	position: absolute;
 	opacity: 0;
 }
+
 /* 質問 */
 .cp_qa .cp_actab label {
 	font-weight: bold;
@@ -92,6 +98,11 @@
 	transition: all 0.3s;
 	color: #00838f;
 }
+
+
+
+
+
 /* --質問の＋アイコン */
 .cp_qa .cp_actab label::after {
 	font-size: 1.7em;
@@ -150,55 +161,22 @@
 
 
 
-/* 吹き出しデザイン */
+/* boxデザイン */
 
-.balloon5 {
-  width: 100%;
-  margin: 1.5em 0;
-  overflow: hidden;
+.box11{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #5d627b;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
-
-.balloon5 .faceicon {
-  float: left;
-  margin-right: -90px;
-  width: 80px;
-}
-
-.balloon5 .faceicon img{
-  width: 100%;
-  height: auto;
-  border: solid 3px #d7ebfe;
-  border-radius: 50%;
-}
-
-.balloon5 .chatting {
-  width: 100%;
-}
-
-.says {
-  display: inline-block;
-  position: relative; 
-  margin: 5px 0 0 105px;
-  padding: 17px 13px;
-  border-radius: 12px;
-  background: #d7ebfe;
-}
-
-.says:after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: 18px; 
-  left: -24px;
-  border: 12px solid transparent;
-  border-right: 12px solid #d7ebfe;
-}
-
-.says p {
-  margin: 0;
+.box11 p {
+  margin: 0; 
   padding: 0;
-  text-align: left;
 }
+
+
 
 
 
