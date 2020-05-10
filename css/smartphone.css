@@ -118,11 +118,9 @@ header ul li {
 
 .main-view {
   width: 100%;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
+  height: 100%;
+  display: inline-block;
 }
-
 
 .main-view h2 {
   margin: 0;
@@ -133,11 +131,9 @@ header ul li {
   height: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(110, 110, 110, 0)), to(rgba(31, 31, 31, 0.74))), url(../img/crean5.JPG);
   background: linear-gradient(rgba(110, 110, 110, 0), rgba(31, 31, 31, 0.74)), url(../img/crean5.JPG);
-  /* background-image: url(../img/crean5.JPG) no-repeat; */
   background-size: cover;
   background-position: center center;
   padding-top: 38%;
-  display: block;
 }
 
 .main-view__right .img {
@@ -227,7 +223,7 @@ header ul li {
   position: absolute;
   width: 21rem;
   height: 23rem;
-  left: 50rem;
+  left: 77rem;
   top: 9rem;
   border: solid 2px white;
   border-radius: 50%;
@@ -276,9 +272,9 @@ header ul li {
 }
 
 .section1 {
-  /* height: -webkit-fit-content;
-  height: -moz-fit-content; */
-  /* height: fit-content; */
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: white;
   text-align: center;
   width: 100%;

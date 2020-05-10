@@ -131,7 +131,7 @@ transform : translate(0, 0);
 
 .main-view{
   width: 100%;
-  height: 100vh;
+  height: 90rem;
   display: flex;
   h2{
     margin: 0;
@@ -139,7 +139,6 @@ transform : translate(0, 0);
   
   &__right{
     width: 45%;
-    height: 100%;
     background: linear-gradient(rgba(110, 110, 110, 0),rgba(31, 31, 31, 0.74)),url(../img/crean5.JPG);
     background-size: cover;
     background-position: center center;
@@ -177,13 +176,17 @@ transform : translate(0, 0);
     .main-text{
       border-top:solid 1px rgb(255, 255, 255);
       border-bottom: solid 1px rgb(253, 253, 253);
-      font-size: 6rem;
+      font-size: 6.5rem;
       line-height: 6rem;
       font-family: 'Hiragino Kaku Gothic Pro';
       font-weight: bolder;
       line-height: 120%;
     }
-    
+    .gosoudan{
+      padding: 0 0 1.3rem 0;
+      margin: 0;
+      font-size:2.8rem ;
+    }
     // ボタンデザイン
     .btn-flat-border {
       display: inline-block;
@@ -194,9 +197,14 @@ transform : translate(0, 0);
       border: solid 2px #ffffff;
       border-radius: 3px;
       transition: .4s;
+      
+      // 幅統一一時的 5/10
+      width: 45%;
+      margin-bottom: 1rem;
     }
     .word-size{
-      font-size: 3rem;
+      // font-size: 3rem; 5/10
+      font-size: 1.6rem;
     }
     .btn-flat-border:hover {
       background: #67c5ff;
@@ -220,10 +228,10 @@ transform : translate(0, 0);
       .hotel-osaka{
         position: absolute;
         // width: 19rem;
-        width: 30%;
+        width: 25%;
         // height: 22rem;
         height: 60%;
-        left: 51rem;
+        left: 59rem;
         top: 10rem;
         border: solid 2px rgb(255, 255, 255);
         border-radius: 50%;
@@ -523,15 +531,65 @@ transform : translate(0, 0);
     .time{
       margin: 0 auto;
       height: 60rem;
-      border: dotted 1px black;
+      // border: dotted 1px black;
       &__box{
-      width: 80%;
-      height: 30rem;
-      border: solid 1px black;
+      height: 45rem;
+      border: solid 0.5rem rgb(44, 103, 180);
       margin: 0 auto;
+      color: rgb(46, 46, 46);
+      .upper{
+        height: 60%;
+        border-bottom: dotted 1.5px rgb(47, 61, 139);
+        text-align: center;
+        // 予備パディング
+        padding: 3rem;
+        &__1{
+          font-weight: bold;
+        }
+        
+        &__2{
+          font-size: 10rem;
+        }
+        &__3{
+          font-size: 2rem;
+        }
+      }
+      .bottom{
+        display: flex;
+        height: 40%;
+        .left{
+          border-right: dotted 1.5px rgb(47, 61, 139);
+          width: 50%;
+          padding: 4rem;
+          p{
+            font-size: 2rem;
+          }
+        }
+        .right{
+          width: 50%;
+          padding: 3rem;
+          .btn-size{
+            font-size: 4rem;
+          }
+          }
+          // ボタンデザイン
+        .btn-flat-border {
+        display: inline-block;
+        padding: 0.3em 1em;
+        text-decoration: none;
+        color: rgb(47, 61, 139);
+        border: solid 2px rgb(47, 61, 139);
+        border-radius: 3px;
+        transition: .4s;
+        }
+        
+        .btn-flat-border:hover {
+          background: rgb(47, 61, 139);
+          color: white;
+        }
+        }
       }
     }
-    
   }
   // テーブルデザイン
   table{
@@ -593,13 +651,13 @@ transform : translate(0, 0);
     margin: 0; 
     padding: 0;
   }
-
+  
 }
 
 .section4{
   height: 100vh;
   background-color: rgb(255, 255, 255);
-  background-image: url(../img/crean6.jpg);
+  // background-image: url(../img/crean6.jpg);
   text-align: center;
   color: rgb(0, 0, 0);
   padding: 5%;
@@ -781,6 +839,3 @@ footer{
   border:solid 2px black ;
   border-radius: 1rem;
 }
-
-
-
