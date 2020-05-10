@@ -1,1 +1,477 @@
-/* No CSS *//*# sourceMappingURL=smartphone.css.map */
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.container1 {
+  width: 100%;
+  overflow: hidden;
+}
+
+header {
+  background-size: cover;
+}
+
+header .logo {
+  width: 250px;
+  height: 75px;
+  position: fixed;
+  left: 10%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 2147483647;
+}
+
+header nav {
+  padding-top: 10px;
+  display: none;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 2147483647;
+  font-weight: bold;
+  width: 55%;
+}
+
+header ul {
+  margin: 0;
+}
+
+header ul li {
+  margin-right: 1rem;
+  color: #1a1a1a;
+}
+
+.snip1211 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: solid 1px black;
+  background-color: rgba(255, 255, 255, 0.911);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0.3rem;
+}
+
+.snip1211 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snip1211 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.3em 1em;
+  padding: 0;
+}
+
+.snip1211 a {
+  padding: 0.4em 0;
+  color: rgba(36, 33, 33, 0.8);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.snip1211 a:before {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  top: 25%;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+  border-top: 3px solid #011846;
+  border-bottom: 3px solid  #011846;
+}
+
+.snip1211 a:hover,
+.snip1211 .current a {
+  color: black;
+}
+
+.snip1211 a:hover:before,
+.snip1211 .current a:before {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+}
+
+.effect-fade {
+  opacity: 0;
+  -webkit-transform: translate(0, 100px);
+          transform: translate(0, 100px);
+  -webkit-transition: all 1500ms;
+  transition: all 1500ms;
+}
+
+.effect-fade.effect-scroll {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.main-view {
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+}
+
+.main-view h2 {
+  margin: 0;
+}
+
+.main-view__right {
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(110, 110, 110, 0)), to(rgba(31, 31, 31, 0.74))), url(../img/crean5.JPG);
+  background: linear-gradient(rgba(110, 110, 110, 0), rgba(31, 31, 31, 0.74)), url(../img/crean5.JPG);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 38%;
+}
+
+.main-view__right .img {
+  height: 100%;
+  width: 100%;
+}
+
+.main-view__right .text {
+  text-align: center;
+  height: 100%;
+  font-size: 2rem;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.main-view__left {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /*左右中央揃え*/
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*上下中央揃え*/
+  background-color: #4072b8;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  padding: 2rem;
+}
+
+.main-view__left .explain4 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.main-view__left .main-text {
+  border-top: solid 1px white;
+  border-bottom: solid 1px #fdfdfd;
+  font-size: 5rem;
+  line-height: 6rem;
+}
+
+.main-view__left .btn-flat-border {
+  display: inline-block;
+  padding: 1em 1.4em;
+  text-decoration: none;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  border-radius: 3px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.main-view__left .word-size {
+  font-size: 3rem;
+}
+
+.main-view__left .btn-flat-border:hover {
+  background: #67c5ff;
+  color: white;
+  border: solid 2px #ffffff;
+  text-decoration: none;
+}
+
+.main-view__left .zisseki {
+  margin-top: 1rem;
+  background-image: url(../img/prise.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* 画像の繰り返しを指定 */
+  background-position: center;
+  /* 画像の表示位置を指定  */
+  background-size: contain;
+  height: 34rem;
+  padding: 5rem;
+  position: relative;
+}
+
+.main-view__left .zisseki .hotel-osaka {
+  position: absolute;
+  width: 21rem;
+  height: 23rem;
+  left: 50rem;
+  top: 9rem;
+  border: solid 2px white;
+  border-radius: 50%;
+}
+
+.main-view__left .zisseki .text {
+  color: #030303;
+  font-weight: bold;
+}
+
+.main-view__left .zisseki .text img {
+  height: 7rem;
+  width: 16rem;
+  padding-bottom: 2rem;
+}
+
+.main-view__left .zisseki .text a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-view__left .zisseki .text .first {
+  font-size: 1.5rem;
+}
+
+.main-view__left .zisseki .text .first .covid {
+  font-size: 2rem;
+}
+
+.main-view__left .zisseki .text .secound {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.main-view__left .zisseki .text .third {
+  font-size: 4rem;
+  color: #8a0808;
+  text-shadow: 2px 2px 10px white, -2px 2px 10px #f8f8f8, 2px -2px 10px white, -2px -2px 10px white;
+}
+
+.main-view__left .phone-num {
+  background-color: #fff;
+  color: #00183a;
+  border-radius: 0.5rem;
+}
+
+.section1 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.section1 .reason-box {
+  width: auto;
+  max-width: 25rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.section1 .midasi2 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.section1 .crean-flows .row4 {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1%;
+}
+
+.section1 .crean-flows .row4 .crean-flow {
+  width: 40%;
+  margin-right: 3rem;
+  padding-bottom: 6rem;
+}
+
+.section1 .crean-flows .row4 .crean-flow p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.section1 .crean-flows .row4 .crean-flow .title {
+  background-color: #d1d1d1;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section1 .crean-flows .row4 .crean-flow img {
+  padding: 1.2rem;
+  border: solid 1px #252525;
+  width: 100%;
+  height: 100%;
+  margin-top: 0.5rem;
+}
+
+.section1 .crean-flows .row4 .crean-flow .text {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.section1 .point2 {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.section1 .point2 p {
+  margin: 0;
+}
+
+.section1 .midasi2 {
+  font-size: 2rem;
+}
+
+.section1 .formation {
+  margin: 0 auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 80vw;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section1 .formation .left-img {
+  border: solid 1px black;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.section1 .formation .left-img img {
+  width: 90%;
+  height: 90%;
+}
+
+.section1 .formation .right-text {
+  padding-top: 4rem;
+  height: 45rem;
+  border: solid 1px black;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.section1 .formation .right-text ul {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.section1 .formation .right-text li {
+  text-align: left;
+}
+
+.section1 .formation .right-text p {
+  border: solid 1px gray;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  background-color: #707ab3;
+  color: white;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+.section1 .drug {
+  margin: 0 auto;
+  width: 65%;
+  padding-bottom: 20rem;
+}
+
+.section1 .drug table {
+  margin: 0 auto;
+  width: 80%;
+  border: #0f0f0f;
+}
+
+.section2 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+  text-align: center;
+  padding: 10rem;
+}
+
+.section2 .flows {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+
+.section2 .flows .yazirusi {
+  padding: 1rem;
+}
+
+.section2 .flows .yazirusi .color {
+  color: #6262c0;
+}
+
+.section2 .flows .flow {
+  border: solid 1px black;
+  padding-bottom: 4rem;
+}
+
+.section2 .flows .flow .flow-title {
+  border-bottom: solid 1px black;
+}
+
+.section2 .flows .flow .title-span {
+  background-color: #7052b6;
+  color: white;
+  font-weight: bold;
+  padding: 1px;
+  float: left;
+}
+
+.section2 .flows .flow .flow-text {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 14px;
+  text-align: left;
+}
+
+.section2 .flows .point {
+  color: #13035e;
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+.section2 .flows .point p {
+  padding: 1rem;
+}
+/*# sourceMappingURL=smartphone.css.map */

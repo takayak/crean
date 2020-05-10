@@ -1,0 +1,424 @@
+.container1{
+  width: 100%;
+  overflow: hidden;
+}
+header{
+  // background-color: rgba(35, 35, 187, 0.1);
+  background-size:cover;
+  .logo{
+    width: 250px;
+    height: 75px;
+    position: fixed;
+    left: 10%;
+    transform: translate(-50%, 0);
+    z-index: 2147483647;
+  }
+  nav{
+    padding-top: 10px;
+    display: none;
+    // 中央揃え記述
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2147483647;
+    font-weight: bold;
+    width: 55%;
+  }
+  ul{
+    margin:0;
+    // width: 80%;
+    li{
+      margin-right: 1rem;
+      color: rgb(26, 26, 26);
+    }
+  }
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.snip1211 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  // letter-spacing: 1px;
+  border: solid 1px black;
+  background-color: rgba(255, 255, 255, 0.911);
+  display: flex;
+  justify-content: center;
+  border-radius: 0.3rem;
+}
+.snip1211 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  // 初期の動き停止
+  // -webkit-transition: all 0.35s ease;
+  // transition: all 0.35s ease;
+}
+.snip1211 li {
+  display: inline-block;
+  list-style: outside none none;
+  // margin: 0.5em 1.5em;
+  margin: 0.3em 1em;
+  padding: 0;
+  
+}
+.snip1211 a {
+  padding: 0.4em 0;
+  // color: rgba(255, 255, 255, 0.5);
+  color: rgba(36, 33, 33, 0.8);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+// ヘッダーアニメーション
+.snip1211 a:before {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  top: 25%;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+  border-top: 3px solid #011846;
+  border-bottom: 3px solid  #011846;
+}
+.snip1211 a:hover,
+.snip1211 .current a {
+  // color: #ffffff;
+  color: black;
+}
+.snip1211 a:hover:before,
+.snip1211 .current a:before {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+}
+
+.effect-fade {
+  opacity : 0;
+  transform : translate(0,100px);
+  transition : all 1500ms;
+  }
+  
+.effect-fade.effect-scroll {
+opacity : 1;
+transform : translate(0, 0);
+}
+
+
+
+
+
+.main-view{
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  h2{
+    margin: 0;
+  }
+  
+  &__right{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(110, 110, 110, 0),rgba(31, 31, 31, 0.74)),url(../img/crean5.JPG);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 38%;
+    .img{
+      height: 100%;
+      width: 100%;
+    }
+    .text{
+      text-align: center;
+      height:100%;
+      font-size: 2rem;
+      color: rgb(245, 245, 245);
+      font-weight: bold;
+    }
+  }
+
+  &__left{
+    // background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(243, 243, 243, 0.473)),url(../img/crean5.JPG);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /*左右中央揃え*/
+    align-items: center;     /*上下中央揃え*/
+    // background-color: #00183a;
+    background-color: #4072b8;
+    // background-image: url(../img/crean5.JPG);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    padding: 2rem;
+    .explain4{
+      font-size: 3rem;
+      padding-bottom:1rem ;
+    }
+    .main-text{
+      border-top:solid 1px rgb(255, 255, 255);
+      border-bottom: solid 1px rgb(253, 253, 253);
+      font-size: 5rem;
+      line-height: 6rem;
+    }
+    
+    // ボタンデザイン
+    .btn-flat-border {
+      display: inline-block;
+      // padding: 0.5em 1.4em;
+      padding: 1em 1.4em;
+      text-decoration: none;
+      color: #ffffff;
+      border: solid 2px #ffffff;
+      border-radius: 3px;
+      transition: .4s;
+    }
+    .word-size{
+      font-size: 3rem;
+    }
+    .btn-flat-border:hover {
+      background: #67c5ff;
+      color: rgb(255, 255, 255);
+      border: solid 2px #ffffff;
+      text-decoration: none;
+    }
+
+    .zisseki{
+      // チェック確認用
+      // border: solid 1px black;
+      margin-top: 1rem;
+      background-image: url(../img/prise.png);
+      background-size: contain;
+      background-repeat:  no-repeat; /* 画像の繰り返しを指定 */              
+      background-position:center; /* 画像の表示位置を指定  */
+      background-size:contain;
+      height: 34rem;
+      padding: 5rem;
+      position: relative;
+      .hotel-osaka{
+        position: absolute;
+        width: 21rem;
+        height: 23rem;
+        left: 50rem;
+        top: 9rem;
+        border: solid 2px rgb(255, 255, 255);
+        border-radius: 50%;
+      }
+      .text{
+        color: rgb(3, 3, 3);
+        font-weight: bold;
+        img{
+          // superhotel logo
+          height: 7rem;
+          width: 16rem;
+          padding-bottom:2rem ;
+        }
+        a{
+          text-decoration: none;
+          color: black;
+        }
+        .first{
+          font-size: 1.5rem;
+          .covid{
+            font-size: 2rem;
+          }
+          
+        }
+        .secound{
+          font-size:3rem ;
+          font-weight: bold;
+          margin: 0;
+          
+        }
+        .third{
+          font-size: 4rem;
+          color: rgb(138, 8, 8);
+          // background-color: #fff;
+          text-shadow:  2px  2px 10px rgb(255, 255, 255) ,
+          -2px  2px 10px rgb(248, 248, 248) ,
+           2px -2px 10px rgb(255, 255, 255) ,
+          -2px -2px 10px rgb(255, 255, 255);
+        }
+      }
+    }
+    .phone-num{
+      background-color: #fff;
+      color: #00183a;
+      border-radius: 0.5rem;      
+    }
+  }
+}
+
+
+.section1{
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  width: 100%;
+  
+  .reason-box{
+    width: auto;
+    max-width: 25rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  .midasi2{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  .crean-flows{
+    // padding: 0 25rem 0 25rem;
+    .row4{
+      width: 90%;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 1%;
+      
+      .crean-flow{
+        width: 40%;
+        margin-right: 3rem;
+        padding-bottom: 6rem;
+
+        p{
+          margin: 0;
+          font-size: 1.2rem;
+        }
+        .title{
+          background-color:rgb(209, 209, 209);
+          color: white;
+          font-weight: bold;
+          width: 100%;
+          margin:0 auto ;
+        }
+        img{
+          padding: 1.2rem;
+          border: solid 1px rgb(37, 37, 37);
+          width: 100%;
+          height: 100%;
+          margin-top: 0.5rem;
+        }
+        .text{
+          height: fit-content;
+        }
+      }
+    }
+  }
+  .point2{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 3rem;
+    p{
+     margin: 0;
+    }
+  }
+  .midasi2{
+    font-size: 2rem;
+  }
+  .formation{
+    margin: 0 auto;
+    height: fit-content;
+    width: 80vw;
+    margin-top:100px;
+    margin-bottom: 100px;
+    display: block;
+    justify-content: center;
+    .left-img{
+      border: solid 1px black;
+      width: 60%;
+      margin: 0 auto;
+      img{
+        width: 90%;
+        height: 90%;
+      }
+    }
+    .right-text{
+      padding-top: 4rem;
+      height: 45rem;
+      border: solid 1px black;
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 4rem;
+      ul{
+        margin-top: 3rem;
+        margin-left: 3rem;
+      }
+      li{
+        text-align: left;
+      }
+      p{
+        border:solid 1px gray ;
+        width: 70%;
+        margin:0 auto ;
+        margin-top: 5rem;
+        background-color: rgb(112, 122, 179);
+        color: white;
+        border-radius: 0.3rem;
+        font-weight: bold;
+      }
+    }
+  }
+  .drug{
+    margin: 0 auto;
+    width:65% ;
+    padding-bottom: 20rem;
+    table{
+      margin: 0 auto;
+      width: 80%;
+      border: rgb(15, 15, 15);
+    }
+  }
+}
+
+
+
+// section2 section2 section2 section2 section2
+.section2{
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10rem;
+  .flows{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    .yazirusi{
+      padding: 1rem;
+      .color{
+        color: rgb(98, 98, 192);
+      }
+    }
+    .flow{
+      border: solid 1px black;
+      padding-bottom: 4rem;
+      .flow-title{
+        border-bottom: solid 1px black;
+      }
+      .title-span{
+        background-color: rgb(112, 82, 182);
+        color: white;
+        font-weight: bold;
+        padding: 1px;
+        float: left;
+      }
+      .flow-text{
+        width: 85%;
+        margin: 0 auto;
+        font-size: 14px;
+        text-align: left;
+      }
+    }
+    .point{
+      color: rgb(19, 3, 94);
+      font-weight: bold;
+      font-size: 2.4rem;
+      p{
+        padding: 1rem;
+      }
+    }
+  }
+}

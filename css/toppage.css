@@ -46,7 +46,8 @@ header nav {
           transform: translate(-50%, 0);
   z-index: 2147483647;
   font-weight: bold;
-  width: 55%;
+  width: 58%;
+  font-size: 1.4rem;
 }
 
 header ul {
@@ -242,10 +243,10 @@ header ul li {
 
 .main-view__left .zisseki .hotel-osaka {
   position: absolute;
-  width: 21rem;
-  height: 23rem;
-  left: 50rem;
-  top: 9rem;
+  width: 19rem;
+  height: 22rem;
+  left: 51rem;
+  top: 10rem;
   border: solid 2px white;
   border-radius: 50%;
 }
@@ -324,12 +325,8 @@ header ul li {
   margin-bottom: 10rem;
 }
 
-.section1 .crean-flows {
-  padding: 0 25rem 0 25rem;
-}
-
 .section1 .crean-flows .row4 {
-  width: 100%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,19 +335,15 @@ header ul li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0 auto;
   margin-bottom: 1%;
-  justify-content: center;
-}
-
-.section1 .crean-flows .row4 .crean-flow:nth-child(3n) {
-  margin-right: 0;
 }
 
 .section1 .crean-flows .row4 .crean-flow {
-  width: 25%;
-  height: 25rem;
-  margin-right: 5rem;
-  margin-bottom: 10rem;
+  width: 30%;
+  height: 35rem;
+  margin-right: 3rem;
+  padding-bottom: 6rem;
 }
 
 .section1 .crean-flows .row4 .crean-flow p {
@@ -375,7 +368,9 @@ header ul li {
 }
 
 .section1 .crean-flows .row4 .crean-flow .text {
-  height: 7rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .section1 .point2 {
@@ -453,10 +448,24 @@ header ul li {
   padding-bottom: 20rem;
 }
 
+.section1 .drug__kome {
+  margin: 0;
+  text-align: right;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+
 .section1 .drug table {
   margin: 0 auto;
   width: 80%;
   border: #0f0f0f;
+  table-layout: fixed;
+}
+
+.section1 .drug table td {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .section2 {
@@ -469,7 +478,7 @@ header ul li {
 }
 
 .section2 .flows {
-  width: 60%;
+  width: 100rem;
   margin: 0 auto;
   margin-top: 10rem;
 }
@@ -479,41 +488,59 @@ header ul li {
 }
 
 .section2 .flows .yazirusi .color {
-  color: #6262c0;
+  color: #4072b8;
 }
 
 .section2 .flows .flow {
   border: solid 1px black;
-  padding-bottom: 4rem;
 }
 
 .section2 .flows .flow .flow-title {
   border-bottom: solid 1px black;
+  font-weight: bold;
+  text-align: center;
 }
 
 .section2 .flows .flow .title-span {
-  background-color: #7052b6;
+  background-color: #4072b8;
   color: white;
   font-weight: bold;
   padding: 1px;
   float: left;
+  border-radius: 1px;
 }
 
 .section2 .flows .flow .flow-text {
   width: 85%;
+  font-size: 1.6rem;
+  text-align: center;
   margin: 0 auto;
-  font-size: 14px;
+}
+
+.section2 .flows .flow .flow-text p {
   text-align: left;
+  margin-bottom: 0;
+  padding: 2%;
+  font-size: 1.4rem;
 }
 
 .section2 .flows .point {
-  color: #13035e;
+  color: #3b639b;
   font-weight: bold;
   font-size: 2.4rem;
+  text-align: left;
+  border-top: solid 2px #4072b8;
+  border-bottom: solid 2px #4072b8;
 }
 
 .section2 .flows .point p {
   padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section2 .flows .point:after {
+  background-color: #4072b8;
 }
 
 .section3 {
@@ -666,7 +693,7 @@ header ul li {
 }
 
 .section4 .reasons .reason p {
-  width: 70%;
+  width: 84%;
   margin: 0 auto;
   margin-top: 8%;
   font-weight: bold;
@@ -690,6 +717,13 @@ header ul li {
 
 .section5 .point {
   width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 1.4rem;
+}
+
+.section5 .point p {
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -723,9 +757,12 @@ header ul li {
 }
 
 footer {
-  height: 15rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: #4f82c9;
   color: white;
+  padding-top: 2rem;
 }
 
 footer .content {
@@ -734,7 +771,17 @@ footer .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2rem;
+  padding: 1rem;
+}
+
+footer .content .left {
+  margin-right: 1rem;
+}
+
+footer .content .left .footer-logo img {
+  width: 20rem;
+  height: 5rem;
+  margin: 0 0 2rem 0;
 }
 
 footer .content .left a {
@@ -758,8 +805,12 @@ footer .content .left p {
   font-size: 1.4rem;
 }
 
-footer .content .right {
-  margin-left: 10rem;
+footer .content .right .footer-list {
+  font-size: 1.3rem;
+  padding: 0;
+  background-color: rgba(31, 59, 102, 0.336);
+  border-radius: 0.5rem;
+  padding: 0.4rem;
 }
 
 footer .content .right ul {
