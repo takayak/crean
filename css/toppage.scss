@@ -164,23 +164,24 @@ transform : translate(0, 0);
     display: flex;
     justify-content: center; /*左右中央揃え*/
     align-items: center;     /*上下中央揃え*/
-    // background-color: #00183a;
     background-color: #4072b8;
-    // background-image: url(../img/crean5.JPG);
     background-size: cover;
     color: rgb(255, 255, 255);
     text-align: center;
     font-family:'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-    padding: 2rem;
+    padding-top: 7rem;
     .explain4{
-      font-size: 3rem;
+      font-size: 2rem;
       padding-bottom:1rem ;
     }
     .main-text{
       border-top:solid 1px rgb(255, 255, 255);
       border-bottom: solid 1px rgb(253, 253, 253);
-      font-size: 5rem;
+      font-size: 6rem;
       line-height: 6rem;
+      font-family: 'Hiragino Kaku Gothic Pro';
+      font-weight: bolder;
+      line-height: 120%;
     }
     
     // ボタンデザイン
@@ -218,8 +219,10 @@ transform : translate(0, 0);
       position: relative;
       .hotel-osaka{
         position: absolute;
-        width: 19rem;
-        height: 22rem;
+        // width: 19rem;
+        width: 30%;
+        // height: 22rem;
+        height: 60%;
         left: 51rem;
         top: 10rem;
         border: solid 2px rgb(255, 255, 255);
@@ -515,6 +518,18 @@ transform : translate(0, 0);
     .kome{
       text-align: right;
       margin-right: 0.5rem;
+    }
+
+    .time{
+      margin: 0 auto;
+      height: 60rem;
+      border: dotted 1px black;
+      &__box{
+      width: 80%;
+      height: 30rem;
+      border: solid 1px black;
+      margin: 0 auto;
+      }
     }
     
   }
