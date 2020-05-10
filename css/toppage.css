@@ -190,19 +190,22 @@ header ul li {
   color: white;
   text-align: center;
   font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-  padding: 2rem;
+  padding-top: 7rem;
 }
 
 .main-view__left .explain4 {
-  font-size: 3rem;
+  font-size: 2rem;
   padding-bottom: 1rem;
 }
 
 .main-view__left .main-text {
   border-top: solid 1px white;
   border-bottom: solid 1px #fdfdfd;
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 6rem;
+  font-family: 'Hiragino Kaku Gothic Pro';
+  font-weight: bolder;
+  line-height: 120%;
 }
 
 .main-view__left .btn-flat-border {
@@ -243,8 +246,8 @@ header ul li {
 
 .main-view__left .zisseki .hotel-osaka {
   position: absolute;
-  width: 19rem;
-  height: 22rem;
+  width: 30%;
+  height: 60%;
   left: 51rem;
   top: 10rem;
   border: solid 2px white;
@@ -586,6 +589,19 @@ header ul li {
 .section3 .price2 .kome {
   text-align: right;
   margin-right: 0.5rem;
+}
+
+.section3 .price2 .time {
+  margin: 0 auto;
+  height: 60rem;
+  border: dotted 1px black;
+}
+
+.section3 .price2 .time__box {
+  width: 80%;
+  height: 30rem;
+  border: solid 1px black;
+  margin: 0 auto;
 }
 
 .section3 table {
