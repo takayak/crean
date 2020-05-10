@@ -339,7 +339,7 @@ header ul li {
 }
 
 .section1 .crean-flows .row4 {
-  width: 80%;
+  width: 120rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -407,7 +407,7 @@ header ul li {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  width: 80vw;
+  width: 80%;
   margin-top: 100px;
   margin-bottom: 100px;
   display: -webkit-box;
@@ -421,6 +421,7 @@ header ul li {
 .section1 .formation .left-img {
   border: solid 1px black;
   width: 40%;
+  height: 45rem;
 }
 
 .section1 .formation .left-img img {
@@ -490,6 +491,52 @@ header ul li {
   background-color: white;
   text-align: center;
   padding: 10rem;
+}
+
+.section2 .flow-graf {
+  margin-top: 10rem;
+}
+
+.section2 .flow-graf .row {
+  width: 90rem;
+  margin: 0 auto;
+}
+
+.section2 .flow-graf .row .graf {
+  width: 20%;
+  height: 28rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  background-color: #637ae2;
+  color: white;
+  position: relative;
+}
+
+.section2 .flow-graf .row .graf .num {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.section2 .flow-graf .row .graf .text {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 3rem;
+  border-top: solid 1px white;
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.section2 .flow-graf .row .graf .triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #637ae2;
+  top: 40%;
+  left: 100%;
 }
 
 .section2 .flows {
@@ -648,7 +695,7 @@ header ul li {
 }
 
 .section3 .price2 .time__box .bottom .left p {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .section3 .price2 .time__box .bottom .right {
@@ -660,7 +707,7 @@ header ul li {
   font-size: 4rem;
 }
 
-.section3 .price2 .time__box .bottom .btn-flat-border {
+.section3 .price2 .time .btn-flat-border {
   display: inline-block;
   padding: 0.3em 1em;
   text-decoration: none;
@@ -671,7 +718,7 @@ header ul li {
   transition: .4s;
 }
 
-.section3 .price2 .time__box .bottom .btn-flat-border:hover {
+.section3 .price2 .time .btn-flat-border:hover {
   background: #2f3d8b;
   color: white;
 }
