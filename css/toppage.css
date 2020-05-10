@@ -150,24 +150,26 @@ header ul li {
 
 .main-view__right {
   width: 45%;
+  height: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(110, 110, 110, 0)), to(rgba(31, 31, 31, 0.74))), url(../img/crean5.JPG);
   background: linear-gradient(rgba(110, 110, 110, 0), rgba(31, 31, 31, 0.74)), url(../img/crean5.JPG);
   background-size: cover;
-  background-position: center center;
-  padding-top: 38%;
+  background-repeat: no-repeat;
+  background-position: 55% center;
 }
 
 .main-view__right .img {
   height: 100%;
-  width: 100%;
+  width: 50%;
 }
 
 .main-view__right .text {
   text-align: center;
-  height: 100%;
   font-size: 2rem;
   color: whitesmoke;
   font-weight: bold;
+  margin-top: 37rem;
+  padding: 5rem;
 }
 
 .main-view__left {
@@ -248,17 +250,6 @@ header ul li {
   background-size: contain;
   height: 34rem;
   padding: 5rem;
-  position: relative;
-}
-
-.main-view__left .zisseki .hotel-osaka {
-  position: absolute;
-  width: 25%;
-  height: 60%;
-  left: 59rem;
-  top: 10rem;
-  border: solid 2px white;
-  border-radius: 50%;
 }
 
 .main-view__left .zisseki .text {
@@ -283,6 +274,18 @@ header ul li {
 
 .main-view__left .zisseki .text .first .covid {
   font-size: 2rem;
+  position: relative;
+}
+
+.main-view__left .zisseki .text .first .covid .hotel-osaka {
+  position: absolute;
+  width: 16rem;
+  height: 21rem;
+  left: 39rem;
+  top: 0;
+  border: solid 1px white;
+  border-radius: 50%;
+  padding: 0;
 }
 
 .main-view__left .zisseki .text .secound {
@@ -362,11 +365,13 @@ header ul li {
 }
 
 .section1 .crean-flows .row4 .crean-flow .title {
-  background-color: #d1d1d1;
+  background-color: #4072b8;
   color: white;
   font-weight: bold;
   width: 100%;
   margin: 0 auto;
+  font-size: 1.5rem;
+  font-family: 'arial black';
 }
 
 .section1 .crean-flows .row4 .crean-flow img {

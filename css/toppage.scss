@@ -139,20 +139,22 @@ transform : translate(0, 0);
   
   &__right{
     width: 45%;
+    height: 100%;
     background: linear-gradient(rgba(110, 110, 110, 0),rgba(31, 31, 31, 0.74)),url(../img/crean5.JPG);
     background-size: cover;
-    background-position: center center;
-    padding-top: 38%;
+    background-repeat: no-repeat;
+    background-position: 55% center;
     .img{
       height: 100%;
-      width: 100%;
+      width: 50%;
     }
     .text{
       text-align: center;
-      height:100%;
       font-size: 2rem;
       color: rgb(245, 245, 245);
       font-weight: bold;
+      margin-top: 37rem;
+      padding: 5rem;
     }
   }
 
@@ -224,18 +226,8 @@ transform : translate(0, 0);
       background-size:contain;
       height: 34rem;
       padding: 5rem;
-      position: relative;
-      .hotel-osaka{
-        position: absolute;
-        // width: 19rem;
-        width: 25%;
-        // height: 22rem;
-        height: 60%;
-        left: 59rem;
-        top: 10rem;
-        border: solid 2px rgb(255, 255, 255);
-        border-radius: 50%;
-      }
+      
+      
       .text{
         color: rgb(3, 3, 3);
         font-weight: bold;
@@ -253,6 +245,17 @@ transform : translate(0, 0);
           font-size: 1.5rem;
           .covid{
             font-size: 2rem;
+            position: relative;
+            .hotel-osaka{
+              position: absolute;
+              width: 16rem;
+              height: 21rem;
+              left: 39rem;
+              top: 0;
+              border: solid 1px rgb(255, 255, 255);
+              border-radius:50% ;
+              padding: 0;
+            }
           }
         }
         .secound{
@@ -332,11 +335,16 @@ transform : translate(0, 0);
           font-size: 1.2rem;
         }
         .title{
-          background-color:rgb(209, 209, 209);
+          // background-color:rgb(209, 209, 209);
+          background-color:#4072b8;;
+          // color: black;
           color: white;
+          
           font-weight: bold;
           width: 100%;
           margin:0 auto ;
+          font-size: 1.5rem;
+          font-family: 'arial black';
         }
         img{
           padding: 1.2rem;
