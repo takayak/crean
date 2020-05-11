@@ -500,7 +500,7 @@ header ul li {
 }
 
 .section2 .flow-graf .row {
-  width: 90rem;
+  width: 80rem;
   margin: 0 auto;
 }
 
@@ -542,7 +542,7 @@ header ul li {
 }
 
 .section2 .flows {
-  width: 100rem;
+  width: 80rem;
   margin: 0 auto;
   margin-top: 10rem;
 }
@@ -622,7 +622,7 @@ header ul li {
 }
 
 .section3 .price1 {
-  width: 120rem;
+  width: 90rem;
   margin: 0 auto;
   margin-bottom: 5rem;
 }
@@ -638,7 +638,7 @@ header ul li {
 }
 
 .section3 .price2 {
-  width: 120rem;
+  width: 90rem;
   margin: 0 auto;
 }
 
@@ -701,7 +701,7 @@ header ul li {
 }
 
 .section3 .price2 .time__box .bottom .left p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .section3 .price2 .time__box .bottom .right {
@@ -710,7 +710,7 @@ header ul li {
 }
 
 .section3 .price2 .time__box .bottom .right .btn-size {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .section3 .price2 .time .btn-flat-border {
