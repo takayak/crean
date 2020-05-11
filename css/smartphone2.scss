@@ -6,10 +6,10 @@ header{
   // background-color: rgba(35, 35, 187, 0.1);
   background-size:cover;
   .logo{
-    width: 250px;
-    height: 75px;
-    position: fixed;
-    left: 13rem;
+    width: 20rem;
+    height: 5rem;
+    position: absolute;
+    left: 50%;
     transform: translate(-50%, 0);
     z-index: 2147483647;
   }
@@ -120,21 +120,23 @@ transform : translate(0, 0);
   
   &__right{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: linear-gradient(rgba(110, 110, 110, 0),rgba(31, 31, 31, 0.74)),url(../img/crean5.JPG);
-    background-size: cover;
-    background-position: center center;
+    // background-size: cover;
+    background-size: 110% 100%;
+    // background-position: center center;
     .img{
       height: 80%;
       width: 100%;
     }
     .text{
       text-align: center;
-      font-size: 2rem;
+      font-size: 1rem;
       color: rgb(245, 245, 245);
       font-weight: bold;
       margin: 0;
-      padding-top: 40rem;
+      padding-top: 30rem;
+      line-height: 4rem;
     }
   }
 
@@ -157,14 +159,19 @@ transform : translate(0, 0);
       margin-top: 7rem;
     }
     .explain4{
-      font-size: 3rem;
+      font-size: 1.4rem;
       padding-bottom:1rem ;
     }
     .main-text{
       border-top:solid 1px rgb(255, 255, 255);
       border-bottom: solid 1px rgb(253, 253, 253);
-      font-size: 5rem;
-      line-height: 6rem;
+      font-size: 2.5rem;
+      line-height: 4rem;
+    }
+    .gosoudan{
+      padding: 0 0 1.3rem 0;
+      margin: 0;
+      font-size:1.2rem ;
     }
     
     // ボタンデザイン
@@ -177,9 +184,10 @@ transform : translate(0, 0);
       border: solid 2px #ffffff;
       border-radius: 3px;
       transition: .4s;
+      width: 90%;
     }
     .word-size{
-      font-size: 1.6rem;
+      font-size: 1.2rem;
     }
     .btn-flat-border:hover {
       background: #67c5ff;
@@ -197,13 +205,14 @@ transform : translate(0, 0);
       background-repeat:  no-repeat; /* 画像の繰り返しを指定 */              
       background-position:center; /* 画像の表示位置を指定  */
       background-size:contain;
-      height: 34rem;
-      padding: 5rem;
+      height: 30rem;
+      padding: 8rem 0 8rem 0;
       position: relative;
+      min-width: 370px;
       .hotel-osaka{
         position: absolute;
-        width: 21rem;
-        height: 23rem;
+        width: 18rem;
+        height: 15rem;
         left: 77rem;
         top: 9rem;
         border: solid 2px rgb(255, 255, 255);
@@ -214,8 +223,8 @@ transform : translate(0, 0);
         font-weight: bold;
         img{
           // superhotel logo
-          height: 7rem;
-          width: 16rem;
+          height: 4rem;
+          width: 12rem;
           padding-bottom:2rem ;
         }
         a{
@@ -223,20 +232,20 @@ transform : translate(0, 0);
           color: black;
         }
         .first{
-          font-size: 1.5rem;
+          font-size: 1rem;
           .covid{
-            font-size: 2rem;
+            font-size: 1.2rem;
           }
           
         }
         .secound{
-          font-size:3rem ;
+          font-size:1.6rem ;
           font-weight: bold;
           margin: 0;
           
         }
         .third{
-          font-size: 4rem;
+          font-size: 2.5rem;
           color: rgb(138, 8, 8);
           // background-color: #fff;
           text-shadow:  2px  2px 10px rgb(255, 255, 255) ,
@@ -270,6 +279,7 @@ transform : translate(0, 0);
   .midasi2{
     margin-top: 10rem;
     margin-bottom: 10rem;
+    font-size: 1rem;
   }
   .crean-flows{
     // padding: 0 25rem 0 25rem;
@@ -322,7 +332,7 @@ transform : translate(0, 0);
     }
   }
   .midasi2{
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .formation{
     margin: 0 auto;

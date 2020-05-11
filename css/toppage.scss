@@ -149,11 +149,12 @@ transform : translate(0, 0);
     }
     .text{
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.8rem;
       color: rgb(245, 245, 245);
       font-weight: bold;
       margin-top: 37rem;
-      padding: 5rem;
+      padding: 5rem 0 5rem 0;
+      line-height: 3rem;
     }
   }
 
@@ -403,13 +404,15 @@ transform : translate(0, 0);
       }
       p{
         border:solid 1px gray ;
-        width: 70%;
+        width: 80%;
         margin:0 auto ;
         margin-top: 5rem;
         background-color: rgb(112, 122, 179);
         color: white;
         border-radius: 0.3rem;
         font-weight: bold;
+        padding: 2rem 1rem 2rem 1rem;
+        font-size: 1.8rem;
       }
     }
   }
@@ -469,7 +472,7 @@ transform : translate(0, 0);
           margin-top: 3rem;
           border-top: solid 1px white;
           padding-top: 1rem;
-          font-size: 2rem;
+          font-size: 1.8rem;
           font-weight: bolder;
         }
         .triangle {
@@ -529,12 +532,11 @@ transform : translate(0, 0);
       // 文字色のみ少し濃く
       color:#3b639b;
       font-weight: bold;
-      font-size: 2.4rem;
+      font-size: 2.3rem;
       text-align: left;
       border-top: solid 2px #4072b8;
       border-bottom: solid 2px #4072b8;
       p{
-        padding: 1rem;
         width: 80%;
         margin: 0 auto;
       }
@@ -567,6 +569,8 @@ transform : translate(0, 0);
     .kome{
       text-align: right;
       margin-right: 0.5rem;
+      font-size: 1.5rem;
+      color: red;
     }
   }
   .price2{
@@ -579,6 +583,8 @@ transform : translate(0, 0);
     .kome{
       text-align: right;
       margin-right: 0.5rem;
+      font-size: 1.5rem;
+      color: red;
     }
 
     .time{
@@ -735,7 +741,7 @@ transform : translate(0, 0);
       width: 40%;
       h4{
         margin-top: 5%;
-        font-size: 2rem;
+        font-size: 3.2rem;
         font-weight: bold;
       }
       p{
@@ -765,7 +771,7 @@ transform : translate(0, 0);
       margin-bottom: 50px;
     }
     .point{
-      width: 70%;
+      width: 75%;
       margin: 0 auto;
       text-align: left;
       padding: 1.4rem;
@@ -796,7 +802,7 @@ transform : translate(0, 0);
   text-align: center;
   height: fit-content;
   .midasi2{
-    padding: 5%;
+    margin: 5%;
   }
 }
 

@@ -10,10 +10,10 @@ header {
 }
 
 header .logo {
-  width: 250px;
-  height: 75px;
-  position: fixed;
-  left: 13rem;
+  width: 20rem;
+  height: 5rem;
+  position: absolute;
+  left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   z-index: 2147483647;
@@ -128,11 +128,10 @@ header ul li {
 
 .main-view__right {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(110, 110, 110, 0)), to(rgba(31, 31, 31, 0.74))), url(../img/crean5.JPG);
   background: linear-gradient(rgba(110, 110, 110, 0), rgba(31, 31, 31, 0.74)), url(../img/crean5.JPG);
-  background-size: cover;
-  background-position: center center;
+  background-size: 110% 100%;
 }
 
 .main-view__right .img {
@@ -142,11 +141,12 @@ header ul li {
 
 .main-view__right .text {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   color: whitesmoke;
   font-weight: bold;
   margin: 0;
-  padding-top: 40rem;
+  padding-top: 30rem;
+  line-height: 4rem;
 }
 
 .main-view__left {
@@ -176,15 +176,21 @@ header ul li {
 }
 
 .main-view__left .explain4 {
-  font-size: 3rem;
+  font-size: 1.4rem;
   padding-bottom: 1rem;
 }
 
 .main-view__left .main-text {
   border-top: solid 1px white;
   border-bottom: solid 1px #fdfdfd;
-  font-size: 5rem;
-  line-height: 6rem;
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+
+.main-view__left .gosoudan {
+  padding: 0 0 1.3rem 0;
+  margin: 0;
+  font-size: 1.2rem;
 }
 
 .main-view__left .btn-flat-border {
@@ -196,10 +202,11 @@ header ul li {
   border-radius: 3px;
   -webkit-transition: .4s;
   transition: .4s;
+  width: 90%;
 }
 
 .main-view__left .word-size {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 .main-view__left .btn-flat-border:hover {
@@ -218,15 +225,16 @@ header ul li {
   background-position: center;
   /* 画像の表示位置を指定  */
   background-size: contain;
-  height: 34rem;
-  padding: 5rem;
+  height: 30rem;
+  padding: 8rem 0 8rem 0;
   position: relative;
+  min-width: 370px;
 }
 
 .main-view__left .zisseki .hotel-osaka {
   position: absolute;
-  width: 21rem;
-  height: 23rem;
+  width: 18rem;
+  height: 15rem;
   left: 77rem;
   top: 9rem;
   border: solid 2px white;
@@ -239,8 +247,8 @@ header ul li {
 }
 
 .main-view__left .zisseki .text img {
-  height: 7rem;
-  width: 16rem;
+  height: 4rem;
+  width: 12rem;
   padding-bottom: 2rem;
 }
 
@@ -250,21 +258,21 @@ header ul li {
 }
 
 .main-view__left .zisseki .text .first {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .main-view__left .zisseki .text .first .covid {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .main-view__left .zisseki .text .secound {
-  font-size: 3rem;
+  font-size: 1.6rem;
   font-weight: bold;
   margin: 0;
 }
 
 .main-view__left .zisseki .text .third {
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: #8a0808;
   text-shadow: 2px 2px 10px white, -2px 2px 10px #f8f8f8, 2px -2px 10px white, -2px -2px 10px white;
 }
@@ -294,6 +302,7 @@ header ul li {
 .section1 .midasi2 {
   margin-top: 10rem;
   margin-bottom: 10rem;
+  font-size: 1rem;
 }
 
 .section1 .crean-flows .row4 {
@@ -355,7 +364,7 @@ header ul li {
 }
 
 .section1 .midasi2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .section1 .formation {
@@ -946,4 +955,4 @@ footer .content .right ul li:hover {
 footer .bottom {
   text-align: center;
 }
-/*# sourceMappingURL=smartphone.css.map */
+/*# sourceMappingURL=smartphone2.css.map */
