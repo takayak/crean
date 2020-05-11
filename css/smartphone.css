@@ -293,7 +293,7 @@ header ul li {
 }
 
 .section1 .crean-flows .row4 {
-  width: 70rem;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,7 +369,6 @@ header ul li {
 .section1 .formation .left-img {
   border: solid 1px black;
   width: 60%;
-  height: 45rem;
   margin: 0 auto;
 }
 

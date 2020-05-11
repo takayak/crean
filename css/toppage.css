@@ -279,8 +279,8 @@ header ul li {
 
 .main-view__left .zisseki .text .first .covid .hotel-osaka {
   position: absolute;
-  width: 16rem;
-  height: 21rem;
+  width: 18rem;
+  height: 18rem;
   left: 39rem;
   top: 0;
   border: solid 1px white;
@@ -353,7 +353,7 @@ header ul li {
 }
 
 .section1 .crean-flows .row4 .crean-flow {
-  width: 30%;
+  width: 25%;
   height: 35rem;
   margin-right: 3rem;
   padding-bottom: 6rem;
@@ -407,7 +407,7 @@ header ul li {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  width: 80%;
+  width: 120rem;
   margin-top: 100px;
   margin-bottom: 100px;
   display: -webkit-box;
@@ -460,7 +460,7 @@ header ul li {
 
 .section1 .drug {
   margin: 0 auto;
-  width: 65%;
+  width: 120rem;
   padding-bottom: 20rem;
 }
 
@@ -620,7 +620,7 @@ header ul li {
 }
 
 .section3 .price1 {
-  width: 70%;
+  width: 120rem;
   margin: 0 auto;
   margin-bottom: 5rem;
 }
@@ -636,7 +636,7 @@ header ul li {
 }
 
 .section3 .price2 {
-  width: 70%;
+  width: 120rem;
   margin: 0 auto;
 }
 
@@ -653,6 +653,10 @@ header ul li {
 .section3 .price2 .time {
   margin: 0 auto;
   height: 60rem;
+}
+
+.section3 .price2 .time .midasi2 {
+  font-size: 3rem;
 }
 
 .section3 .price2 .time__box {
@@ -792,7 +796,8 @@ header ul li {
   background-color: white;
   text-align: center;
   color: black;
-  padding: 5%;
+  width: 120rem;
+  margin: 0 auto;
 }
 
 .section4 .midasi2 {
@@ -817,7 +822,7 @@ header ul li {
   height: fit-content;
   margin-right: 1rem;
   background-color: rgba(255, 255, 255, 0.2);
-  width: 30%;
+  width: 40%;
 }
 
 .section4 .reasons .reason h4 {
@@ -841,28 +846,33 @@ header ul li {
   height: fit-content;
   background-color: #f1f1f1;
   text-align: center;
-  padding: 10rem;
+  padding: 5rem 0 5rem 0;
 }
 
-.section5 .midasi2 {
+.section5 .inner-area {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.section5 .inner-area .midasi2 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.section5 .point {
+.section5 .inner-area .point {
   width: 70%;
   margin: 0 auto;
   text-align: left;
   padding: 1.4rem;
 }
 
-.section5 .point p {
+.section5 .inner-area .point p {
   width: 75%;
   margin: 0 auto;
 }
 
-.section5 img {
-  width: 50%;
+.section5 .inner-area img {
+  width: 38%;
 }
 
 .section6 {
@@ -870,7 +880,7 @@ header ul li {
   height: -moz-fit-content;
   height: fit-content;
   background-color: white;
-  width: 80%;
+  width: 120rem;
   margin: 0 auto;
 }
 
@@ -887,7 +897,7 @@ header ul li {
 }
 
 .form-call .midasi2 {
-  margin: 5%;
+  padding: 5%;
 }
 
 footer {
@@ -900,7 +910,7 @@ footer {
 }
 
 footer .content {
-  width: 80%;
+  width: 120rem;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -941,7 +951,7 @@ footer .content .left p {
 
 footer .content .right .footer-list {
   font-size: 1.3rem;
-  padding: 0;
+  padding: 0 auto;
   background-color: rgba(31, 59, 102, 0.336);
   border-radius: 0.5rem;
   padding: 0.4rem;
