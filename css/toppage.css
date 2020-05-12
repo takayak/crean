@@ -165,11 +165,12 @@ header ul li {
 .main-view__right .text {
   text-align: center;
   font-size: 1.8rem;
-  color: whitesmoke;
-  font-weight: bold;
-  margin-top: 37rem;
+  color: #eeeeee;
+  font-weight: 900;
+  margin-top: 28rem;
   padding: 5rem 0 5rem 0;
-  line-height: 3rem;
+  line-height: 5rem;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 0px 1px 0 black, -1px 0 black, -1px 0 0 black, 1px 0 0 black;
 }
 
 .main-view__left {
@@ -233,7 +234,7 @@ header ul li {
 }
 
 .main-view__left .word-size {
-  font-size: 1.6rem;
+  font-size: 2.5rem;
 }
 
 .main-view__left .btn-flat-border:hover {
@@ -331,9 +332,12 @@ header ul li {
 }
 
 .section1 .reason-box {
-  width: 15%;
+  width: 20%;
+  padding: 1rem;
   margin: 0 auto;
   margin-bottom: 5rem;
+  font-size: 2.4rem;
+  font-weight: bold;
 }
 
 .section1 .midasi2 {
@@ -374,7 +378,7 @@ header ul li {
   width: 100%;
   margin: 0 auto;
   font-size: 1.5rem;
-  font-family: 'arial black';
+  padding: 0.5rem;
 }
 
 .section1 .crean-flows .row4 .crean-flow img {
@@ -383,12 +387,6 @@ header ul li {
   width: 100%;
   height: 100%;
   margin-top: 0.5rem;
-}
-
-.section1 .crean-flows .row4 .crean-flow .text {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
 }
 
 .section1 .point2 {
@@ -707,7 +705,7 @@ header ul li {
 }
 
 .section3 .price2 .time__box .bottom .left p {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
 }
 
 .section3 .price2 .time__box .bottom .right {
@@ -963,6 +961,7 @@ footer .content .right .footer-list {
   background-color: rgba(31, 59, 102, 0.336);
   border-radius: 0.5rem;
   padding: 0.4rem;
+  font-family: 'Raleway', Arial, sans-serif;
 }
 
 footer .content .right ul {
