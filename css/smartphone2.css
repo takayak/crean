@@ -141,11 +141,11 @@ header ul li {
 
 .main-view__right .text {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: whitesmoke;
   font-weight: bold;
   margin: 0;
-  padding-top: 30rem;
+  padding-top: 18rem;
   line-height: 4rem;
 }
 
@@ -227,18 +227,7 @@ header ul li {
   background-size: contain;
   height: 30rem;
   padding: 8rem 0 8rem 0;
-  position: relative;
-  min-width: 370px;
-}
-
-.main-view__left .zisseki .hotel-osaka {
-  position: absolute;
-  width: 18rem;
-  height: 15rem;
-  left: 77rem;
-  top: 9rem;
-  border: solid 2px white;
-  border-radius: 50%;
+  min-width: 350px;
 }
 
 .main-view__left .zisseki .text {
@@ -263,6 +252,17 @@ header ul li {
 
 .main-view__left .zisseki .text .first .covid {
   font-size: 1.2rem;
+  position: relative;
+}
+
+.main-view__left .zisseki .text .first .covid .hotel-osaka {
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  left: 22rem;
+  top: 8rem;
+  border: solid 2px white;
+  border-radius: 50%;
 }
 
 .main-view__left .zisseki .text .secound {
@@ -297,6 +297,8 @@ header ul li {
   max-width: 25rem;
   margin: 0 auto;
   margin-bottom: 5rem;
+  font-size: 1.4rem;
+  padding: 0 0.2rem 0 0.2rem;
 }
 
 .section1 .midasi2 {
@@ -319,14 +321,13 @@ header ul li {
 }
 
 .section1 .crean-flows .row4 .crean-flow {
-  width: 40%;
-  margin-right: 3rem;
-  padding-bottom: 6rem;
+  width: 60%;
+  margin-right: 0;
 }
 
 .section1 .crean-flows .row4 .crean-flow p {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 0.4rem;
 }
 
 .section1 .crean-flows .row4 .crean-flow .title {
@@ -340,10 +341,10 @@ header ul li {
 }
 
 .section1 .crean-flows .row4 .crean-flow img {
-  padding: 1.2rem;
+  padding: 0.6rem;
   border: solid 1px #252525;
   width: 100%;
-  height: 100%;
+  height: 70%;
   margin-top: 0.5rem;
 }
 
@@ -364,7 +365,7 @@ header ul li {
 }
 
 .section1 .midasi2 {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 .section1 .formation {
@@ -404,6 +405,7 @@ header ul li {
 .section1 .formation .right-text ul {
   margin-top: 3rem;
   margin-left: 3rem;
+  font-size: 1.2rem;
 }
 
 .section1 .formation .right-text li {
@@ -433,8 +435,14 @@ header ul li {
   border: #0f0f0f;
 }
 
+.section1 .drug table td {
+  font-size: 1.2rem;
+}
+
 .section1 .drug .drug__kome {
   margin: 0;
+  font-size: 0.6rem;
+  width: 100%;
 }
 
 .section2 {
@@ -456,7 +464,7 @@ header ul li {
 }
 
 .section2 .flow-graf .row .graf {
-  width: 20%;
+  width: 22%;
   height: 22rem;
   margin: 0 auto;
   border-radius: 0.5rem;
@@ -470,13 +478,17 @@ header ul li {
   font-weight: bolder;
 }
 
+.section2 .flow-graf .row .graf .fa-4x {
+  font-size: 3.8rem;
+}
+
 .section2 .flow-graf .row .graf .text {
   margin: 0 auto;
   width: 90%;
   margin-top: 3rem;
   border-top: solid 1px white;
   padding-top: 1rem;
-  font-size: 1rem;
+  font-size: 0.6rem;
   font-weight: bolder;
 }
 
@@ -484,10 +496,10 @@ header ul li {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 20px solid #637ae2;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #637ae2;
   top: 40%;
   left: 100%;
 }
@@ -514,7 +526,7 @@ header ul li {
   border-bottom: solid 1px black;
   font-weight: bold;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .section2 .flows .flow .title-span {
@@ -528,7 +540,7 @@ header ul li {
 
 .section2 .flows .flow .flow-text {
   width: 85%;
-  font-size: 1.3rem;
+  font-size: 0.2rem;
   text-align: center;
   margin: 0 auto;
 }
@@ -537,7 +549,7 @@ header ul li {
   text-align: left;
   margin-bottom: 0;
   padding: 1%;
-  font-size: 1.1rem;
+  font-size: 0.2rem;
 }
 
 .section2 .flows .point {
@@ -571,7 +583,7 @@ header ul li {
 
 .section3 .midasi2 {
   margin: 5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .section3 .price1 {
@@ -613,61 +625,65 @@ header ul li {
 }
 
 .section3 .price2 .time .midasi2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .section3 .price2 .time__box {
-  height: 45rem;
+  height: 21rem;
   border: solid 0.5rem #2c67b4;
   margin: 0 auto;
   color: #2e2e2e;
 }
 
 .section3 .price2 .time__box .upper {
-  height: 60%;
   border-bottom: dotted 1.5px #2f3d8b;
   text-align: center;
-  padding: 4rem;
+  height: 12rem;
+  padding: 2rem;
 }
 
 .section3 .price2 .time__box .upper__1 {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 .section3 .price2 .time__box .upper__2 {
-  font-size: 6rem;
+  font-size: 2rem;
   width: 100%;
 }
 
 .section3 .price2 .time__box .upper__3 {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .section3 .price2 .time__box .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 40%;
+  height: 8rem;
 }
 
 .section3 .price2 .time__box .bottom .left {
   border-right: dotted 1.5px #2f3d8b;
   width: 50%;
-  padding: 5rem 0 5rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
 .section3 .price2 .time__box .bottom .left p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .section3 .price2 .time__box .bottom .right {
   width: 50%;
-  padding: 4rem 0 4rem 0;
+  padding: 0.8rem;
+}
+
+.section3 .price2 .time__box .bottom .right h3 {
+  font-size: 0.4rem;
 }
 
 .section3 .price2 .time__box .bottom .right .btn-size {
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 .section3 .price2 .time .btn-flat-border {
@@ -748,7 +764,7 @@ header ul li {
 .section3 .box11 p {
   margin: 0;
   padding: 0;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .section4 {
@@ -763,8 +779,9 @@ header ul li {
 }
 
 .section4 .midasi2 {
-  margin-top: 7rem;
-  margin-bottom: 7rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
 }
 
 .section4 .reasons {
@@ -802,7 +819,7 @@ header ul li {
 .section4 .reasons .reason-box {
   margin: 0 auto;
   margin-bottom: 5rem;
-  width: 60%;
+  width: 80%;
 }
 
 .section5 {
