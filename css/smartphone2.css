@@ -325,11 +325,6 @@ header ul li {
   margin-right: 0;
 }
 
-.section1 .crean-flows .row4 .crean-flow p {
-  margin: 0;
-  font-size: 0.4rem;
-}
-
 .section1 .crean-flows .row4 .crean-flow .title {
   background-color: #4072b8;
   color: white;
@@ -338,6 +333,11 @@ header ul li {
   margin: 0 auto;
   font-size: 1.5rem;
   font-family: 'arial black';
+}
+
+.section1 .crean-flows .row4 .crean-flow .title p {
+  margin: 0;
+  font-size: 0.8rem;
 }
 
 .section1 .crean-flows .row4 .crean-flow img {
@@ -365,7 +365,7 @@ header ul li {
 }
 
 .section1 .midasi2 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .section1 .formation {
@@ -540,7 +540,7 @@ header ul li {
 
 .section2 .flows .flow .flow-text {
   width: 85%;
-  font-size: 0.2rem;
+  font-size: 1rem;
   text-align: center;
   margin: 0 auto;
 }
@@ -549,7 +549,7 @@ header ul li {
   text-align: left;
   margin-bottom: 0;
   padding: 1%;
-  font-size: 0.2rem;
+  font-size: 1rem;
 }
 
 .section2 .flows .point {
@@ -666,7 +666,7 @@ header ul li {
 .section3 .price2 .time__box .bottom .left {
   border-right: dotted 1.5px #2f3d8b;
   width: 50%;
-  padding: 2rem 0 2rem 0;
+  padding: 1rem 0 1rem 0;
 }
 
 .section3 .price2 .time__box .bottom .left p {
@@ -780,8 +780,8 @@ header ul li {
 
 .section4 .midasi2 {
   margin-top: 4rem;
-  margin-bottom: 4rem;
-  font-size: 1.5rem;
+  margin-bottom: 7rem;
+  font-size: 1.2rem;
 }
 
 .section4 .reasons {
@@ -869,7 +869,7 @@ header ul li {
 
 .section6 .title {
   text-align: center;
-  padding: 5rem;
+  margin: 5rem;
 }
 
 .section6 .word-size {

@@ -303,10 +303,7 @@ transform : translate(0, 0);
         margin-right: 0;
         // padding-bottom: 3rem;
 
-        p{
-          margin: 0;
-          font-size: 0.4rem;
-        }
+        
         .title{
           background-color:#4072b8;;
           color: white;
@@ -315,6 +312,10 @@ transform : translate(0, 0);
           margin:0 auto ;
           font-size: 1.5rem;
           font-family: 'arial black';
+          p{
+            margin: 0;
+            font-size: 0.8rem;
+          }
         }
         img{
           padding: 0.6rem;
@@ -340,7 +341,7 @@ transform : translate(0, 0);
     }
   }
   .midasi2{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .formation{
     margin: 0 auto;
@@ -492,14 +493,14 @@ transform : translate(0, 0);
       }
       .flow-text{
         width: 85%;
-        font-size: 0.2rem;
+        font-size: 1rem;
         text-align: center;
         margin: 0 auto;
         p{
           text-align: left;
           margin-bottom: 0;
           padding: 1%;
-          font-size: 0.2rem;
+          font-size: 1rem;
         }
       }
     }
@@ -597,7 +598,7 @@ transform : translate(0, 0);
         .left{
           border-right: dotted 1.5px rgb(47, 61, 139);
           width: 50%;
-          padding: 2rem 0 2rem 0;
+          padding: 1rem 0 1rem 0;
           p{
             font-size: 1rem;
           }
@@ -708,8 +709,8 @@ transform : translate(0, 0);
   margin: 0 auto;
   .midasi2{
     margin-top: 4rem;
-    margin-bottom: 4rem;
-    font-size: 1.5rem;
+    margin-bottom: 7rem;
+    font-size: 1.2rem;
   }
   .reasons{
     display: block;
@@ -784,7 +785,7 @@ transform : translate(0, 0);
   margin: 0 auto;
   .title{
     text-align: center;
-    padding: 5rem;
+    margin: 5rem;
   }
   .word-size{
     font-size: 1.3rem;

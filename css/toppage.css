@@ -137,7 +137,7 @@ header ul li {
 }
 
 .main-view {
-  height: 90rem;
+  height: 80rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,11 +192,11 @@ header ul li {
   color: white;
   text-align: center;
   font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-  padding-top: 7rem;
+  padding-top: 8rem;
 }
 
 .main-view__left .inner {
-  width: 78rem;
+  width: 72rem;
 }
 
 .main-view__left .explain4 {
@@ -215,7 +215,7 @@ header ul li {
 }
 
 .main-view__left .gosoudan {
-  padding: 0 0 1.3rem 0;
+  padding: 0 0 1rem 0;
   margin: 0;
   font-size: 2.6rem;
 }
@@ -245,15 +245,14 @@ header ul li {
 }
 
 .main-view__left .zisseki {
-  margin-top: 1rem;
   background-image: url(../img/prise.png);
   background-size: 80% 100%;
   background-repeat: no-repeat;
   /* 画像の繰り返しを指定 */
   background-position: center;
   /* 画像の表示位置を指定  */
-  height: 33rem;
-  padding: 5rem;
+  height: 28rem;
+  padding: 4rem;
 }
 
 .main-view__left .zisseki .text {
@@ -262,9 +261,8 @@ header ul li {
 }
 
 .main-view__left .zisseki .text img {
-  height: 8rem;
+  height: 6rem;
   width: 20rem;
-  padding-bottom: 2rem;
 }
 
 .main-view__left .zisseki .text a {
