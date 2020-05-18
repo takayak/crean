@@ -222,6 +222,17 @@ transform : translate(0, 0);
           text-decoration: none;
           color: black;
         }
+        .head-t{
+          margin-top: 2rem;
+          font-family: 'Hiragino Kaku Gothic Pro';
+          font-size:3.6rem;
+          color: rgb(138, 8, 8);
+          // background-color: #fff;
+          text-shadow:  2px  2px 10px rgb(255, 255, 255) ,
+          -2px  2px 10px rgb(248, 248, 248) ,
+           2px -2px 10px rgb(255, 255, 255) ,
+          -2px -2px 10px rgb(255, 255, 255);
+        }
         .first{
           font-size: 1.5rem;
           .covid{
@@ -236,13 +247,13 @@ transform : translate(0, 0);
           
         }
         .third{
-          font-size: 4rem;
-          color: rgb(138, 8, 8);
+          font-size: 3.4rem;
+          // color: rgb(138, 8, 8);
           // background-color: #fff;
-          text-shadow:  2px  2px 10px rgb(255, 255, 255) ,
-          -2px  2px 10px rgb(248, 248, 248) ,
-           2px -2px 10px rgb(255, 255, 255) ,
-          -2px -2px 10px rgb(255, 255, 255);
+          // text-shadow:  2px  2px 10px rgb(255, 255, 255) ,
+          // -2px  2px 10px rgb(248, 248, 248) ,
+          //  2px -2px 10px rgb(255, 255, 255) ,
+          // -2px -2px 10px rgb(255, 255, 255);
         }
       }
     }
