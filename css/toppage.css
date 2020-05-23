@@ -75,6 +75,10 @@ header ul li {
   border-radius: 0.3rem;
 }
 
+.snip1211 .contact {
+  font-weight: 900;
+}
+
 .snip1211 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
