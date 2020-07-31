@@ -305,15 +305,6 @@ transform : translate(0, 0);
 
           }
         }
-        // p{
-        //   span{
-        //     font-size: 25px;
-        //     color: white;
-        //     background-color: #4072b8;
-        //     padding: 2px;
-        //     border-radius:3px;
-        //   }
-        // }
         &__ex{
           font-size: 11px;
           
@@ -513,6 +504,7 @@ section.section0{
   table{
     border-collapse: collapse;
     border: none;
+    // width: 90%;
     
 
     table,td,th{
