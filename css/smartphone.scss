@@ -289,7 +289,7 @@ section.section0-1{
     .point7{
       font-size: 2.5rem;
       // background-color: #87befd;
-      color: #87befd;
+      // color: #87befd;
       width: 80%;
       margin: 0 auto;
       padding: 0.4rem;
@@ -325,7 +325,6 @@ section.section0-1{
           margin: 0 auto;
           font-size: 2rem;
           color: rgb(253, 254, 255);
-          background-color: rgb(58, 133, 194);
           border-radius:10px;
           padding: 5px 0;
           margin-bottom: 3rem;
@@ -362,7 +361,8 @@ section.section0-1{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    background: #87befd;
+    // background: #87befd;
+    background: #4d32c4;
     color: #FFF;
     width: 220px;
     height: 220px;
@@ -370,12 +370,12 @@ section.section0-1{
     border-radius: 50%;
     overflow:wrap;
     text-align: center;
-    box-shadow: 0px 0px 0px 5px #87befd;
+    box-shadow: 0px 0px 0px 5px #4d32c4;
     border: dashed 1px #FFF;
     transition: .4s;
   }
   .btn-circle-stitch:hover {
-    background: #668ad8;
+    // background: #668ad8;
     box-shadow: 0px 0px 0px 5px #668ad8;
   }
   .text{

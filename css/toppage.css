@@ -318,8 +318,8 @@ header ul li {
 }
 
 .main-view__left .strengths .strength {
-  margin: 0.5vw;
-  margin-top: 2vw;
+  margin: 5px;
+  margin-top: 2.2rem;
   width: 20rem;
   height: 20rem;
   background-color: white;
@@ -333,16 +333,24 @@ header ul li {
   font-size: 2rem;
   color: #4072b8;
   font-weight: 900;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 15px 0;
+  height: 11rem;
 }
 
 .main-view__left .strengths .strength__title span.b-word {
   background-color: #4072b8;
   color: #fdfdfd;
-  padding: 2px;
+  padding: 4px;
   border-radius: 4px;
-  font-size: 4.9rem;
+  font-size: 45px;
+  -moz-text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.87);
+  -webkit-text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.87);
+  -ms-text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.87);
+  text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.87);
+}
+
+.main-view__left .strengths .strength__ex1 {
+  height: 40px;
 }
 
 .main-view__left .strengths .strength__ex {
@@ -362,6 +370,7 @@ header ul li {
   font-family: 'Hiragino Kaku Gothic Pro';
   font-weight: bolder;
   line-height: 120%;
+  padding: 2rem;
 }
 
 .main-view__left .gosoudan {
@@ -650,6 +659,7 @@ section.section0-1 .inner {
 
 section.section0-1 .midasi2 {
   margin-bottom: 7rem;
+  font-size: 3.2rem;
 }
 
 section.section0-1 .promises {
@@ -663,7 +673,7 @@ section.section0-1 .promises {
 
 section.section0-1 .promises .point7 {
   font-size: 2.5rem;
-  color: #87befd;
+  color: #4d32c4;
   width: 80%;
   margin: 0 auto;
   padding: 0.4rem;
@@ -716,6 +726,7 @@ section.section0-1 .c-reasons .reason .left__title {
   font-size: 3rem;
   color: #fdfeff;
   background-color: #3a85c2;
+  background-color: #4d32c4ec;
   border-radius: 10px;
   padding: 5px 0;
   margin-bottom: 3rem;
@@ -758,15 +769,15 @@ section.section0-1 .btn-circle-stitch {
       -ms-flex-pack: center;
           justify-content: center;
   text-decoration: none;
-  background: #87befd;
+  background: #4d32c4;
   color: #FFF;
   width: 220px;
   height: 220px;
   border-radius: 50%;
   overflow: wrap;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 0px 5px #87befd;
-          box-shadow: 0px 0px 0px 5px #87befd;
+  -webkit-box-shadow: 0px 0px 0px 5px #4d32c4;
+          box-shadow: 0px 0px 0px 5px #4d32c4;
   border: dashed 1px #FFF;
   -webkit-transition: .4s;
   transition: .4s;
@@ -819,6 +830,7 @@ section.section0-1 .text span.title {
 .section1 .midasi2 {
   margin-top: 10rem;
   margin-bottom: 10rem;
+  font-size: 3.2rem;
 }
 
 .section1 .crean-flows .row4 {
@@ -970,6 +982,10 @@ section.section0-1 .text span.title {
   background-color: white;
   text-align: center;
   padding: 10rem;
+}
+
+.section2 .midasi2 {
+  font-size: 3.2rem;
 }
 
 .section2 .flow-graf {
@@ -1227,6 +1243,7 @@ section.section0-1 .text span.title {
 .section5 .inner-area .midasi2 {
   margin-top: 50px;
   margin-bottom: 50px;
+  font-size: 3.2rem;
 }
 
 .section5 .inner-area .point {
@@ -1257,6 +1274,7 @@ section.section0-1 .text span.title {
 .section6 .title {
   text-align: center;
   padding: 5rem;
+  font-size: 3.2rem;
 }
 
 .form-call {
@@ -1268,6 +1286,7 @@ section.section0-1 .text span.title {
 
 .form-call .midasi2 {
   margin: 5%;
+  font-size: 3.2rem;
 }
 
 footer {

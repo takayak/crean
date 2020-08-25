@@ -277,8 +277,8 @@ transform : translate(0, 0);
       justify-content: center;
       align-items: center;
       .strength{
-        margin: 0.5vw;
-        margin-top: 2vw;
+        margin: 5px;
+        margin-top: 2.2rem;
         width: 20rem;
         height: 20rem;
         background-color: rgb(255, 255, 255);
@@ -291,19 +291,30 @@ transform : translate(0, 0);
           font-size: 2rem;
           color: #4072b8;
           font-weight: 900;
-          padding-left:0;
-          padding-right:0 ;
+          padding: 15px 0;
+          // height: fit-content;
+          height: 11rem;
+
           span.b-word{
             // background-color: black;
             // color: red;
             background-color: #4072b8;
             color: #fdfdfd;
-            padding: 2px;
+            padding: 4px;
             border-radius: 4px;
-            font-size: 4.9rem;
+            font-size: 45px;
             // border:2px solid rgb(165, 165, 165);
-
+            // text-shadow:3px 3px 3px #000000;
+            -moz-text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.87);
+            -webkit-text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.87);
+            -ms-text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.87);
+            text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.87);
           }
+        }
+        &__ex1{
+          // font-size: 2.4vw;
+          // margin-bottom: 1vw;
+          height: 40px;
         }
         &__ex{
           font-size: 11px;
@@ -324,6 +335,7 @@ transform : translate(0, 0);
       font-family: 'Hiragino Kaku Gothic Pro';
       font-weight: bolder;
       line-height: 120%;
+      padding: 2rem;
     }
     .gosoudan{
       padding: 1rem 0 1rem 0;
@@ -766,6 +778,7 @@ section.section0-1{
   }
   .midasi2{
     margin-bottom: 7rem;
+    font-size: 3.2rem;
   }
   .promises{
     display: flex;
@@ -773,7 +786,8 @@ section.section0-1{
     .point7{
       font-size: 2.5rem;
       // background-color: #87befd;
-      color: #87befd;
+      // color: #87befd;
+      color: #4d32c4;
       width: 80%;
       margin: 0 auto;
       padding: 0.4rem;
@@ -810,6 +824,7 @@ section.section0-1{
           font-size: 3rem;
           color: rgb(253, 254, 255);
           background-color: rgb(58, 133, 194);
+          background-color: #4d32c4ec;
           border-radius:10px;
           padding: 5px 0;
           margin-bottom: 3rem;
@@ -846,7 +861,8 @@ section.section0-1{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    background: #87befd;
+    // background: #87befd;
+    background: #4d32c4;
     color: #FFF;
     width: 220px;
     height: 220px;
@@ -854,7 +870,8 @@ section.section0-1{
     border-radius: 50%;
     overflow:wrap;
     text-align: center;
-    box-shadow: 0px 0px 0px 5px #87befd;
+    // box-shadow: 0px 0px 0px 5px #87befd;
+    box-shadow: 0px 0px 0px 5px #4d32c4;
     border: dashed 1px #FFF;
     transition: .4s;
   }
@@ -894,6 +911,7 @@ section.section0-1{
   .midasi2{
     margin-top: 10rem;
     margin-bottom: 10rem;
+    font-size: 3.2rem;
   }
   .crean-flows{
     // padding: 0 25rem 0 25rem;
@@ -1027,6 +1045,9 @@ section.section0-1{
   background-color: rgb(255, 255, 255);
   text-align: center;
   padding: 10rem;
+  .midasi2{
+    font-size: 3.2rem;
+  }
   .flow-graf{
     margin-top: 10rem;
     .row{
@@ -1316,6 +1337,7 @@ section.section0-1{
     .midasi2{
       margin-top: 50px;
       margin-bottom: 50px;
+      font-size: 3.2rem;
     }
     .point{
       width: 75%;
@@ -1341,6 +1363,7 @@ section.section0-1{
   .title{
     text-align: center;
     padding: 5rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -1350,6 +1373,7 @@ section.section0-1{
   height: fit-content;
   .midasi2{
     margin: 5%;
+    font-size: 3.2rem;
   }
 }
 
